@@ -106,6 +106,7 @@ struct _PhotosToolCrop
   gdouble crop_x_visible;
   gdouble crop_y;
   gdouble crop_y_visible;
+  gdouble degrees;
   gdouble event_x_last;
   gdouble event_y_last;
   gint list_box_active;
@@ -1094,6 +1095,19 @@ photos_tool_crop_size_allocate (PhotosToolCrop *self, GdkRectangle *allocation)
 
 
 static void
+photos_tool_crop_update_original_orientable (PhotosToolCrop *self)
+{
+  guint i;
+
+  for (i = 0; self->constraints[i].aspect_ratio_type != 0; i++)
+    {
+      if (self->constraints[i].aspect_ratio_type == PHOTOS_TOOL_CROP_ASPECT_RATIO_ORIGINAL)
+        self->constraints[i].orientable = self->bbox_source.height != self->bbox_source.width;
+    }
+}
+
+
+static void
 photos_tool_crop_process (GObject *source_object, GAsyncResult *res, gpointer user_data)
 {
   PhotosToolCrop *self;
@@ -1154,32 +1168,8 @@ photos_tool_crop_process (GObject *source_object, GAsyncResult *res, gpointer us
 
 
 static void
-photos_tool_crop_reset_clicked (PhotosToolCrop *self)
+photos_tool_crop_setup (PhotosToolCrop *self, PhotosBaseItem *item)
 {
-  self->reset = TRUE;
-  photos_tool_crop_set_active (self, -1, NULL);
-  gtk_widget_queue_draw (self->view);
-  g_signal_emit_by_name (self, "hide-requested");
-}
-
-
-static void
-photos_tool_crop_update_original_orientable (PhotosToolCrop *self)
-{
-  guint i;
-
-  for (i = 0; self->constraints[i].aspect_ratio_type != 0; i++)
-    {
-      if (self->constraints[i].aspect_ratio_type == PHOTOS_TOOL_CROP_ASPECT_RATIO_ORIGINAL)
-        self->constraints[i].orientable = self->bbox_source.height != self->bbox_source.width;
-    }
-}
-
-
-static void
-photos_tool_crop_activate (PhotosTool *tool, PhotosBaseItem *item, PhotosImageView *view)
-{
-  PhotosToolCrop *self = PHOTOS_TOOL_CROP (tool);
   gboolean got_bbox_source;
   gdouble height = -1.0;
   gdouble width = -1.0;
@@ -1190,7 +1180,6 @@ photos_tool_crop_activate (PhotosTool *tool, PhotosBaseItem *item, PhotosImageVi
   g_return_if_fail (got_bbox_source);
 
   self->reset = FALSE;
-  self->view = GTK_WIDGET (view);
   photos_tool_crop_update_original_orientable (self);
 
   if (photos_base_item_operation_get (item,
@@ -1259,6 +1248,66 @@ photos_tool_crop_activate (PhotosTool *tool, PhotosBaseItem *item, PhotosImageVi
     }
 }
 
+static void
+photos_tool_crop_rotate_process (GObject *source_object, GAsyncResult *res, gpointer user_data)
+{
+  PhotosToolCrop *self;
+  PhotosBaseItem *item = PHOTOS_BASE_ITEM (source_object);
+
+   self = PHOTOS_TOOL_CROP (user_data);
+
+  {
+    g_autoptr (GError) error = NULL;
+
+    if (!photos_base_item_operation_remove_finish (item, res, &error))
+      {
+        if (!g_error_matches (error, G_IO_ERROR, G_IO_ERROR_CANCELLED))
+          g_warning ("Unable to process item: %s", error->message);
+        return;
+      }
+  }
+
+  photos_tool_crop_setup (self, item);
+
+}
+
+
+static void
+photos_tool_crop_reset_clicked (PhotosToolCrop *self)
+{
+  self->reset = TRUE;
+  photos_tool_crop_set_active (self, -1, NULL);
+  gtk_widget_queue_draw (self->view);
+  g_signal_emit_by_name (self, "hide-requested");
+}
+
+
+static void
+photos_tool_crop_activate (PhotosTool *tool, PhotosBaseItem *item, PhotosImageView *view)
+{
+  PhotosToolCrop *self = PHOTOS_TOOL_CROP (tool);
+  gdouble degrees = 0;
+
+  self->view = GTK_WIDGET (view);
+
+  if (photos_base_item_operation_get (item,
+                                      "gegl:rotate",
+                                      "degrees", &degrees,
+                                      NULL))
+    {
+      self->degrees = degrees;
+      photos_base_item_operation_remove_async (item,
+                                               "gegl:rotate",
+                                               self->cancellable,
+                                               photos_tool_crop_rotate_process,
+                                               self);
+    }
+  else
+    {
+      photos_tool_crop_setup (self, item);
+    }
+}
+
 
 static void
 photos_tool_crop_deactivate (PhotosTool *tool)
@@ -1288,6 +1337,7 @@ photos_tool_crop_deactivate (PhotosTool *tool)
       g_variant_builder_add (&parameter, "{sd}", "width", self->crop_width / zoom);
       g_variant_builder_add (&parameter, "{sd}", "x", self->crop_x / zoom);
       g_variant_builder_add (&parameter, "{sd}", "y", self->crop_y / zoom);
+      g_variant_builder_add (&parameter, "{sd}", "degrees", self->degrees);
       g_action_activate (self->crop, g_variant_builder_end (&parameter));
     }
 

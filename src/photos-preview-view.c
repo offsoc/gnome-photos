@@ -67,6 +67,7 @@ struct _PhotosPreviewView
   gdouble event_y_last;
   gdouble zoom_begin;
   gdouble zoom_best_fit;
+  gint16 degrees;
 };
 
 enum
@@ -512,11 +513,13 @@ photos_preview_view_create_view_with_container (PhotosPreviewView *self)
   return sw;
 }
 
+static void photos_preview_view_rotate(PhotosPreviewView *self, GVariant *parameter);
 
 static void
 photos_preview_view_process (GObject *source_object, GAsyncResult *res, gpointer user_data)
 {
   GError *error = NULL;
+  PhotosPreviewView *self = PHOTOS_PREVIEW_VIEW (user_data);
   PhotosBaseItem *item = PHOTOS_BASE_ITEM (source_object);
 
   photos_base_item_operation_add_finish (item, res, &error);
@@ -533,6 +536,13 @@ photos_preview_view_process (GObject *source_object, GAsyncResult *res, gpointer
           g_error_free (error);
         }
     }
+
+    // Always apply rotation last (only used by crop)
+    if (self->degrees != 0)
+      {
+        GVariant *parameter = g_variant_new_int16 (self->degrees);
+        photos_preview_view_rotate (self, parameter);
+      }
 }
 
 
@@ -632,6 +642,27 @@ photos_preview_view_shadows_highlights (PhotosPreviewView *self, GVariant *param
 
 
 static void
+photos_preview_view_rotate(PhotosPreviewView *self, GVariant *parameter)
+{
+  PhotosBaseItem *item;
+  gint16 degrees;
+
+  item = PHOTOS_BASE_ITEM (photos_base_manager_get_active_object (self->item_mngr));
+  if (item == NULL)
+    return;
+
+  degrees = g_variant_get_int16 (parameter);
+  photos_base_item_operation_add_async (item,
+                                        self->cancellable,
+                                        photos_preview_view_process,
+                                        self,
+                                        "gegl:rotate",
+                                        "degrees", (gdouble) degrees,
+                                        NULL);
+}
+
+
+static void
 photos_preview_view_crop (PhotosPreviewView *self, GVariant *parameter)
 {
   GVariantIter iter;
@@ -658,6 +689,8 @@ photos_preview_view_crop (PhotosPreviewView *self, GVariant *parameter)
         x = value;
       else if (g_strcmp0 (key, "y") == 0)
         y = value;
+      else if (g_strcmp0 (key, "degrees") == 0)
+        self->degrees = value;
     }
 
   g_return_if_fail (height >= 0.0);
@@ -1317,6 +1350,10 @@ photos_preview_view_init (PhotosPreviewView *self)
   action = g_action_map_lookup_action (G_ACTION_MAP (app), "denoise-current");
   g_signal_connect_object (action, "activate", G_CALLBACK (photos_preview_view_denoise), self, G_CONNECT_SWAPPED);
 
+  action = g_action_map_lookup_action (G_ACTION_MAP (app), "rotate-current");
+  g_signal_connect_object (action, "activate", G_CALLBACK (photos_preview_view_rotate), self, G_CONNECT_SWAPPED);
+
+
   action = g_action_map_lookup_action (G_ACTION_MAP (app), "edit-done");
   g_signal_connect_object (action, "activate", G_CALLBACK (photos_preview_view_edit_done), self, G_CONNECT_SWAPPED);
 
@@ -1377,6 +1414,7 @@ photos_preview_view_init (PhotosPreviewView *self)
 
   self->event_x_last = -1.0;
   self->event_y_last = -1.0;
+  self->degrees = 0;
 }
 
 
@@ -1451,3 +1489,4 @@ photos_preview_view_set_node (PhotosPreviewView *self, GeglNode *node)
       photos_image_view_set_node (PHOTOS_IMAGE_VIEW (view), self->node);
     }
 }
+
