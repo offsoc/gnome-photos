@@ -249,7 +249,7 @@ gnome_photos_sources += gnome.genmarshal(
 )
 
 resource_data = files(
-  '../data/Adwaita.css',
+  '../data/application.css',
   '../data/dnd-counter.svg',
   '../data/icons/image-adjust-color-symbolic.svg',
   '../data/icons/image-auto-adjust-symbolic.svg',
