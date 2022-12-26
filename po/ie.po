@@ -1,0 +1,1021 @@
+# Interlingue translation for gnome-photos.
+# Copyright (C) 2022 gnome-photos's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-photos package.
+# Olga Smirnova <mistresssilvara@hotmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-photos master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-photos/issues\n"
+"POT-Creation-Date: 2022-08-07 10:25+0000\n"
+"PO-Revision-Date: 2022-12-26 20:07+0700\n"
+"Language-Team: Interlingue <ie@li.org>\n"
+"Language: ie\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-DamnedLies-Scope: partial\n"
+"Last-Translator: OIS <mistresssilvara@hotmail.com>\n"
+"X-Generator: Poedit 1.8.12\n"
+
+#: data/org.gnome.Photos.appdata.xml.in:7 data/org.gnome.Photos.desktop.in.in:3
+#: src/photos-application.c:2946 src/photos-embed.c:822
+#: src/photos-main-window.c:437 src/photos-search-type-manager.c:101
+msgid "Photos"
+msgstr "Fotos"
+
+#: data/org.gnome.Photos.appdata.xml.in:8 src/photos-main-window.c:457
+msgid "Access, organize and share your photos on GNOME"
+msgstr "Acceder, ordinar e partir vor fotos in GNOME"
+
+#: data/org.gnome.Photos.appdata.xml.in:10
+msgid ""
+"Access, organize and share your photos on GNOME. A simple and elegant "
+"replacement for using a file manager to deal with photos. Enhance, crop and "
+"edit in a snap. Seamless cloud integration is offered through GNOME Online "
+"Accounts."
+msgstr ""
+
+#: data/org.gnome.Photos.appdata.xml.in:16
+msgid "You can:"
+msgstr "Vu posse:"
+
+#: data/org.gnome.Photos.appdata.xml.in:18
+msgid "Automatically find all your pictures"
+msgstr ""
+
+#: data/org.gnome.Photos.appdata.xml.in:19
+msgid "View recent local and online photos"
+msgstr "Vider recent fotos local e online"
+
+#: data/org.gnome.Photos.appdata.xml.in:20
+msgid "Access your Facebook or Flickr pictures"
+msgstr "Acceder vor images de Facebook o Flickr"
+
+#: data/org.gnome.Photos.appdata.xml.in:21
+msgid ""
+"View photos on TVs, laptops or other DLNA renderers on your local network"
+msgstr ""
+
+#: data/org.gnome.Photos.appdata.xml.in:23
+msgid "Set pictures as your desktop background"
+msgstr "Assignar images quam li funde del Pupitre"
+
+#: data/org.gnome.Photos.appdata.xml.in:24
+msgid "Print photos"
+msgstr "Printar fotos"
+
+#: data/org.gnome.Photos.appdata.xml.in:25
+msgid "Select favorites"
+msgstr "Selecter li preferates"
+
+#: data/org.gnome.Photos.appdata.xml.in:26
+msgid ""
+"Easily edit your pictures in the app, or send to a full featured editor for "
+"more advanced changes"
+msgstr ""
+
+#: data/org.gnome.Photos.appdata.xml.in:109
+msgid "The GNOME Project"
+msgstr "Li projecte GNOME"
+
+#: data/org.gnome.Photos.desktop.in.in:4
+msgid "Access, organize and share photos"
+msgstr "Acceder, ordinar e partir fotos"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.gnome.Photos.desktop.in.in:15
+msgid "Photos;Pictures;"
+msgstr "Fotos;Picturas;"
+
+#: src/photos-application.c:168
+msgid "Show the empty state"
+msgstr "Monstrar li vacui statu"
+
+#: src/photos-application.c:169
+msgid "Show the application's version"
+msgstr "Monstrar li version del programma"
+
+#. Translators: this is the default sub-directory where photos will
+#. * be imported.
+#.
+#. Translators: this is the default sub-directory where photos
+#. * will be exported.
+#.
+#. Translators: this is the name of the default album that will be
+#. * created for imported photos.
+#.
+#: src/photos-application.c:1271 src/photos-export-dialog.c:195
+#: src/photos-import-dialog.c:134
+msgid "%-d %B %Y"
+msgstr "%-d %B %Y"
+
+#: src/photos-base-item.c:1034
+msgid "Album"
+msgstr "Album"
+
+#: src/photos-base-item.c:2862
+msgid "Screenshots"
+msgstr "Capturas de ecran"
+
+#: src/photos-delete-notification.c:156
+#, c-format
+msgid "“%s” deleted"
+msgstr "«%s» sta removet"
+
+#: src/photos-delete-notification.c:159
+#, c-format
+msgid "%d item deleted"
+msgid_plural "%d items deleted"
+msgstr[0] "%d element removet"
+msgstr[1] "%d elementes removet"
+
+#: src/photos-delete-notification.c:166 src/photos-done-notification.c:119
+msgid "Undo"
+msgstr "Defar"
+
+#: src/photos-dlna-renderers-dialog.ui:7
+msgid "DLNA Renderer Devices"
+msgstr "Aparates de presentation DLNA"
+
+#: src/photos-done-notification.c:112
+#, c-format
+msgid "“%s” edited"
+msgstr "«%s» esset modificat"
+
+#: src/photos-embed.c:827
+msgid "Collection View"
+msgstr "Vise del collection"
+
+#: src/photos-embed.c:830 src/photos-search-type-manager.c:83
+msgid "Albums"
+msgstr "Albums"
+
+#: src/photos-embed.c:835 src/photos-search-type-manager.c:92
+msgid "Favorites"
+msgstr "Preferet"
+
+#: src/photos-embed.c:840
+msgid "Import"
+msgstr "Importar"
+
+#: src/photos-embed.c:843 src/photos-main-toolbar.c:336
+msgid "Search"
+msgstr "Serchar"
+
+#: src/photos-empty-results-box.c:116
+msgid "No Albums Found"
+msgstr "Null albums trovat"
+
+#: src/photos-empty-results-box.c:120
+msgid "Starred Photos Will Appear Here"
+msgstr "Fotos con un astre va aparir ci"
+
+#: src/photos-empty-results-box.c:130
+msgid "No Photos Found"
+msgstr "Null fotos trovat"
+
+#: src/photos-empty-results-box.c:155
+msgid "You can create albums from the Photos view"
+msgstr "Vu posse crear albums in li vise Fotos"
+
+#. Translators: this should be translated in the context of
+#. * the "Photos from your Online Accounts and Pictures folder
+#. * will appear here." sentence below.
+#.
+#: src/photos-empty-results-box.c:176
+msgid "Online Accounts"
+msgstr "Contos online"
+
+#. Translators: this should be translated in the context of
+#. * the "Photos from your Online Accounts and Pictures folder
+#. * will appear here." sentence below.
+#.
+#: src/photos-empty-results-box.c:183
+msgid "Pictures folder"
+msgstr "fólder de images"
+
+#. Translators: the first %s here is "Online Accounts" and the
+#. * second %s is "Pictures folder", which are in separate
+#. * strings due to markup, and should be translated only in the
+#. * context of this sentence.
+#.
+#: src/photos-empty-results-box.c:190
+#, c-format
+msgid "Photos from your %s and %s will appear here."
+msgstr "Fotos ex vor %s e %s va aparir ci."
+
+#: src/photos-empty-results-box.c:200
+msgid "Try a different search."
+msgstr "Prova un altri sercha."
+
+#: src/photos-export-dialog.ui:22
+msgctxt "dialog title"
+msgid "Export"
+msgstr "Exportar"
+
+#: src/photos-export-dialog.ui:38
+msgid "_Folder Name"
+msgstr "Nómine del _fólder"
+
+#: src/photos-export-dialog.ui:66 src/photos-print-setup.c:908
+msgid "Size"
+msgstr "Dimension"
+
+#: src/photos-export-dialog.ui:83
+msgid "F_ull"
+msgstr "_Plen"
+
+#: src/photos-export-dialog.ui:113
+msgid "_Reduced"
+msgstr "_Reductet"
+
+#: src/photos-export-dialog.ui:160 src/photos-import-dialog.ui:185
+#: src/photos-main-toolbar.c:488 src/photos-main-toolbar.c:524
+#: src/photos-main-toolbar.c:635
+msgid "_Cancel"
+msgstr "_Annular"
+
+#: src/photos-export-dialog.ui:167
+msgid "_Export"
+msgstr "_Exportar"
+
+#. Translators: this is the estimated size of the exported image in
+#. * the form "1600×1067 (0.6 GB)".
+#.
+#: src/photos-export-dialog.c:66
+#, c-format
+msgid "%d×%d (%s)"
+msgstr "%d×%d (%s)"
+
+#: src/photos-export-dialog.c:252
+msgid "Calculating export size…"
+msgstr "Calculante li grandore de exporation…"
+
+#: src/photos-export-notification.c:317
+msgid "Failed to export: not enough space"
+msgstr "Exportation ne successat: ínsuficent spacie"
+
+#: src/photos-export-notification.c:319
+msgid "Failed to export"
+msgstr "Exportation ne successat"
+
+#: src/photos-export-notification.c:326
+#, c-format
+msgid "“%s” exported"
+msgstr "«%s» sta exportat"
+
+#: src/photos-export-notification.c:330
+#, c-format
+msgid "%d item exported"
+msgid_plural "%d items exported"
+msgstr[0] "%d element exportat"
+msgstr[1] "%d elementes exportat"
+
+#: src/photos-export-notification.c:347
+msgid "Analyze"
+msgstr "Analisar"
+
+#: src/photos-export-notification.c:352
+msgid "Empty Trash"
+msgstr "Vacuar li Paper-corb"
+
+#. Translators: this is the Open action in a context menu
+#: src/photos-export-notification.c:369 src/photos-preview-menu.ui:6
+#: src/photos-selection-toolbar.c:248 src/photos-selection-toolbar.ui:28
+msgid "Open"
+msgstr "Aperter"
+
+#. Translators: this is the label of the button to open the
+#. * folder where the item was exported.
+#.
+#: src/photos-export-notification.c:379
+msgid "Export Folder"
+msgstr "Fólder de exportation"
+
+#. Translators: this is the fallback title in the form
+#. * "Facebook — 2nd January 2013".
+#.
+#: src/photos-flickr-item.c:102 src/photos-google-item.c:98
+#, c-format
+msgid "%s — %s"
+msgstr "%s — %s"
+
+#: src/photos-help-overlay.ui:32
+msgctxt "shortcut window"
+msgid "General"
+msgstr "General"
+
+#: src/photos-help-overlay.ui:36
+msgctxt "shortcut window"
+msgid "Show help"
+msgstr "Monstrar auxilie"
+
+#: src/photos-help-overlay.ui:43
+msgctxt "shortcut window"
+msgid "Keyboard shortcuts"
+msgstr "Rapid-tastes"
+
+#: src/photos-help-overlay.ui:50
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Surtir"
+
+#: src/photos-help-overlay.ui:59
+msgctxt "shortcut window"
+msgid "Navigation"
+msgstr "Navigation"
+
+#: src/photos-help-overlay.ui:63
+msgctxt "shortcut window"
+msgid "Next photo"
+msgstr "Sequent foto"
+
+#: src/photos-help-overlay.ui:70
+msgctxt "shortcut window"
+msgid "Previous photo"
+msgstr "Precedent foto"
+
+#: src/photos-help-overlay.ui:77 src/photos-help-overlay.ui:85
+msgctxt "shortcut window"
+msgid "Go back"
+msgstr "Ear retro"
+
+#: src/photos-help-overlay.ui:95
+msgctxt "shortcut window"
+msgid "Overview"
+msgstr "Compendie"
+
+#: src/photos-help-overlay.ui:99
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Serchar"
+
+#: src/photos-help-overlay.ui:106
+msgctxt "shortcut window"
+msgid "Select all"
+msgstr "Selecter omni"
+
+#: src/photos-help-overlay.ui:113
+msgctxt "shortcut window"
+msgid "Export selected photo"
+msgstr "Exportar li selectet foto"
+
+#: src/photos-help-overlay.ui:120
+msgctxt "shortcut window"
+msgid "Print selected photo"
+msgstr "Printar li selectet foto"
+
+#: src/photos-help-overlay.ui:127
+msgctxt "shortcut window"
+msgid "Delete selected photos"
+msgstr "Remover li selectet fotos"
+
+#: src/photos-help-overlay.ui:136
+msgctxt "shortcut window"
+msgid "Photo view"
+msgstr "Vise de Fotos"
+
+#: src/photos-help-overlay.ui:140
+msgctxt "shortcut window"
+msgid "Edit"
+msgstr "Redacter"
+
+#: src/photos-help-overlay.ui:147
+msgctxt "shortcut window"
+msgid "Export"
+msgstr "Exportar"
+
+#: src/photos-help-overlay.ui:154
+msgctxt "shortcut window"
+msgid "Print"
+msgstr "Printar"
+
+#: src/photos-help-overlay.ui:161
+msgctxt "shortcut window"
+msgid "Zoom in"
+msgstr "Agrandar"
+
+#: src/photos-help-overlay.ui:168
+msgctxt "shortcut window"
+msgid "Zoom out"
+msgstr "Diminuer"
+
+#: src/photos-help-overlay.ui:175
+msgctxt "shortcut window"
+msgid "Best fit"
+msgstr "Adjustar dimension"
+
+#: src/photos-help-overlay.ui:182
+msgctxt "shortcut window"
+msgid "Delete"
+msgstr "Remover"
+
+#: src/photos-help-overlay.ui:189
+msgctxt "shortcut window"
+msgid "Action menu"
+msgstr "Menú de actiones"
+
+#: src/photos-help-overlay.ui:196
+msgctxt "shortcut window"
+msgid "Fullscreen"
+msgstr "Plen-ecran"
+
+#: src/photos-help-overlay.ui:205
+msgctxt "shortcut window"
+msgid "Edit view"
+msgstr "Vise de redactor"
+
+#: src/photos-help-overlay.ui:209
+msgctxt "shortcut window"
+msgid "Cancel"
+msgstr "Anullar"
+
+#: src/photos-import-dialog.c:194
+msgid "An album with that name already exists"
+msgstr "Un album con ti-ci nómine ja existe"
+
+#: src/photos-import-dialog.c:211
+msgid "An album for that date already exists"
+msgstr "Un album por ti date ja existe"
+
+#: src/photos-import-dialog.ui:22
+msgctxt "dialog title"
+msgid "Name Album"
+msgstr "Nómine de album"
+
+#: src/photos-import-dialog.ui:54
+msgid "Create _New"
+msgstr "Crear un _nov"
+
+#: src/photos-import-dialog.ui:118
+msgid "Add to _Existing"
+msgstr "Adjunter al _existent"
+
+#: src/photos-import-dialog.ui:192 src/photos-organize-collection-dialog.c:69
+msgid "_Add"
+msgstr "_Adjunter"
+
+#. Translators: %s refers to an online account provider, e.g.,
+#. * "Facebook" or "Flickr".
+#.
+#: src/photos-indexing-notification.c:163
+#, c-format
+msgid "Fetching photos from %s"
+msgstr "Obtenente fotos de %s"
+
+#: src/photos-indexing-notification.c:166
+msgid "Fetching photos from online accounts"
+msgstr "Obtenente fotos de contos online"
+
+#: src/photos-indexing-notification.c:193
+msgid "Your photos are being indexed"
+msgstr "Vor fotos es essent indexat"
+
+#: src/photos-indexing-notification.c:194
+msgid "Some photos might not be available during this process"
+msgstr "Alcun fotos posse esser índisponibil durante to"
+
+#: src/photos-item-manager.c:845
+#, c-format
+msgid "Oops! Unable to load “%s”"
+msgstr "Errore! Ne successat cargar «%s»"
+
+#: src/photos-local-item.c:241 src/photos-source-manager.c:399
+msgid "Local"
+msgstr "Local"
+
+#: src/photos-main-toolbar.c:80
+msgid "Click on items to select them"
+msgstr "Fa un clic sur elementes por selecter les"
+
+#: src/photos-main-toolbar.c:82
+#, c-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d selectet"
+msgstr[1] "%d selectet"
+
+#: src/photos-main-toolbar.c:170
+msgid "Select items for import"
+msgstr "Selecte elementes a importar"
+
+#: src/photos-main-toolbar.c:174
+#, c-format
+msgid "Select items for import (%u selected)"
+msgid_plural "Select items for import (%u selected)"
+msgstr[0] "Selecter elementes a importar (%u selectet)"
+msgstr[1] "Selecter elementes a importar (%u selectet)"
+
+#: src/photos-main-toolbar.c:217
+msgid "Back"
+msgstr "Retro"
+
+#: src/photos-main-toolbar.c:351
+msgid "Select Items"
+msgstr "Selecter elementes"
+
+#. length == 1
+#. Translators: this is the Open action in a context menu
+#: src/photos-main-toolbar.c:411 src/photos-selection-toolbar.c:245
+#: src/photos-share-notification.c:165
+#, c-format
+msgid "Open with %s"
+msgstr "Aperter per %s"
+
+#: src/photos-main-toolbar.c:442 src/photos-selection-toolbar.c:254
+msgid "Remove from favorites"
+msgstr "Remover ex li preferet"
+
+#: src/photos-main-toolbar.c:447 src/photos-selection-toolbar.c:259
+msgid "Add to favorites"
+msgstr "Adjunter al preferet"
+
+#: src/photos-main-toolbar.c:492
+msgid "Done"
+msgstr "Finit"
+
+#: src/photos-main-toolbar.c:528
+msgid "_Select"
+msgstr "_Selecter"
+
+#: src/photos-main-window.c:458
+msgid ""
+"Copyright © 2012 – 2021 Red Hat, Inc.\n"
+"Copyright © 2015 – 2018 Umang Jain"
+msgstr ""
+"Copyright © 2012 – 2021 Red Hat, Inc.\n"
+"Copyright © 2015 – 2018 Umang Jain"
+
+#. Translators: Put your names here
+#: src/photos-main-window.c:466
+msgid "translator-credits"
+msgstr "OIS <mistresssilvara@hotmail.com>, 2016-2022"
+
+#: src/photos-organize-collection-dialog.c:70
+msgid "_OK"
+msgstr "_OK"
+
+#. Translators: "Organize" refers to photos in this context
+#: src/photos-organize-collection-dialog.c:121
+msgctxt "Dialog title"
+msgid "Organize"
+msgstr "Organisar"
+
+#: src/photos-preview-menu.ui:10
+msgid "Export…"
+msgstr "Exportar…"
+
+#: src/photos-preview-menu.ui:14
+msgid "Print…"
+msgstr "Printar…"
+
+#: src/photos-preview-menu.ui:19
+msgid "Delete"
+msgstr "Remover"
+
+#: src/photos-preview-menu.ui:23
+msgid "Display on…"
+msgstr "Monstrar sur…"
+
+#: src/photos-preview-menu.ui:27
+msgid "Set as Background"
+msgstr "Assignar quam li funde"
+
+#: src/photos-preview-menu.ui:31
+msgid "Set as Lock Screen"
+msgstr "Assignar quam li ecran de serrada"
+
+#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:883
+#: src/photos-selection-toolbar.ui:101
+msgid "Properties"
+msgstr "Proprietás"
+
+#: src/photos-preview-menu.ui:41
+msgid "Fullscreen"
+msgstr "Plen-ecran"
+
+#: src/photos-primary-menu.ui:6
+msgid "Keyboard Shortcuts"
+msgstr "Rapid-tastes"
+
+#: src/photos-primary-menu.ui:10
+msgid "_Help"
+msgstr "Au_xilie"
+
+#: src/photos-primary-menu.ui:14
+msgid "About Photos"
+msgstr "Pri li Fotos"
+
+#: src/photos-print-notification.c:71
+#, c-format
+msgid "Printing “%s”: %s"
+msgstr "Printante «%s»: %s"
+
+#: src/photos-print-operation.c:241
+msgid "Image Settings"
+msgstr "Parametres de image"
+
+#: src/photos-print-setup.c:880
+msgid "Position"
+msgstr "Position"
+
+#: src/photos-print-setup.c:883
+msgid "_Left:"
+msgstr "_Levul:"
+
+#: src/photos-print-setup.c:884
+msgid "_Right:"
+msgstr "_Dextri:"
+
+#: src/photos-print-setup.c:885
+msgid "_Top:"
+msgstr "_Alt:"
+
+#: src/photos-print-setup.c:886
+msgid "_Bottom:"
+msgstr "_Bass:"
+
+#: src/photos-print-setup.c:888
+msgid "C_enter:"
+msgstr "C_entre:"
+
+#: src/photos-print-setup.c:892
+msgid "None"
+msgstr "Null"
+
+#: src/photos-print-setup.c:893
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: src/photos-print-setup.c:894
+msgid "Vertical"
+msgstr "Vertical"
+
+#: src/photos-print-setup.c:895
+msgid "Both"
+msgstr "Ambi"
+
+#: src/photos-print-setup.c:911
+msgid "_Width:"
+msgstr "_Largore:"
+
+#: src/photos-print-setup.c:912
+msgid "_Height:"
+msgstr "_Altore:"
+
+#: src/photos-print-setup.c:914
+msgid "_Scaling:"
+msgstr "_Scale:"
+
+#: src/photos-print-setup.c:923
+msgid "_Unit:"
+msgstr "_Unité:"
+
+#: src/photos-print-setup.c:927
+msgid "Millimeters"
+msgstr "Millimetres"
+
+#: src/photos-print-setup.c:928
+msgid "Inches"
+msgstr "Inches"
+
+#: src/photos-print-setup.c:956
+msgid "Preview"
+msgstr "Previder"
+
+#: src/photos-properties-dialog.c:246
+msgid "Edited in Photos"
+msgstr "Modificat in li Fotos"
+
+#: src/photos-properties-dialog.c:259
+msgid "Untouched"
+msgstr "Íntuchat"
+
+#. Translators: this is the label next to the photo title in the
+#. * properties dialog
+#.
+#: src/photos-properties-dialog.c:442
+msgctxt "Document Title"
+msgid "Title"
+msgstr "Titul"
+
+#. Translators: this is the label next to the photo author in
+#. * the properties dialog
+#.
+#: src/photos-properties-dialog.c:454
+msgctxt "Document Author"
+msgid "Author"
+msgstr "Autor"
+
+#: src/photos-properties-dialog.c:461
+msgid "Source"
+msgstr "Fonte"
+
+#: src/photos-properties-dialog.c:467
+msgid "Date Modified"
+msgstr "Modificat"
+
+#: src/photos-properties-dialog.c:475
+msgid "Date Created"
+msgstr "Creat"
+
+#. Translators: this is the label next to the photo type in the
+#. * properties dialog
+#.
+#: src/photos-properties-dialog.c:485
+msgctxt "Document Type"
+msgid "Type"
+msgstr "Tip"
+
+#: src/photos-properties-dialog.c:495
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+#: src/photos-properties-dialog.c:507
+msgid "Location"
+msgstr "Localisation"
+
+#: src/photos-properties-dialog.c:525
+msgid "Camera"
+msgstr "Cámera"
+
+#: src/photos-properties-dialog.c:535 src/photos-tool-colors.c:365
+msgid "Exposure"
+msgstr "Exposition"
+
+#: src/photos-properties-dialog.c:545
+msgid "Aperture"
+msgstr "Apertura"
+
+#: src/photos-properties-dialog.c:555
+msgid "Focal Length"
+msgstr "Dist. focal"
+
+#: src/photos-properties-dialog.c:565
+msgid "ISO Speed"
+msgstr "Velocitá ISO"
+
+#: src/photos-properties-dialog.c:575
+msgid "Flash"
+msgstr "Flash"
+
+#: src/photos-properties-dialog.c:584
+msgid "Modifications"
+msgstr "Modificationes"
+
+#: src/photos-properties-dialog.c:656
+#, c-format
+msgid "%ld × %ld pixel"
+msgid_plural "%ld × %ld pixels"
+msgstr[0] "%ld × %ld pixel"
+msgstr[1] "%ld × %ld pixeles"
+
+#: src/photos-properties-dialog.c:721
+msgid "Off, did not fire"
+msgstr "No, ne tirat"
+
+#: src/photos-properties-dialog.c:723
+msgid "On, fired"
+msgstr "Yes, flash tirat"
+
+#: src/photos-properties-dialog.c:760
+msgid "Discard all Edits"
+msgstr "Defar omni modificationes"
+
+#: src/photos-removable-devices-button.ui:48
+msgid "Devices"
+msgstr "Aparates"
+
+#: src/photos-search-match-manager.c:149 src/photos-search-type-manager.c:74
+#: src/photos-source-manager.c:396
+msgid "All"
+msgstr "Omni"
+
+#. Translators: "Title" refers to "Match Title" when searching.
+#: src/photos-search-match-manager.c:155
+msgctxt "Search Filter"
+msgid "Title"
+msgstr "Titul"
+
+#. Translators: "Author" refers to "Match Author" when searching.
+#: src/photos-search-match-manager.c:161
+msgctxt "Search Filter"
+msgid "Author"
+msgstr "Autor"
+
+#. Translators: this is a verb that refers to "All", "Title" and
+#. * "Author", as in "Match All", "Match Title" and "Match Author".
+#.
+#: src/photos-search-match-manager.c:213
+msgid "Match"
+msgstr "Trovar in"
+
+#. Translators: "Type" refers to a search filter. eg., All, Albums,
+#. * Favorites and Photos.
+#.
+#: src/photos-search-type-manager.c:126
+msgctxt "Search Filter"
+msgid "Type"
+msgstr "Tip"
+
+#: src/photos-selection-menu.ui:6
+msgid "Select All"
+msgstr "Selecter omni"
+
+#: src/photos-selection-menu.ui:11
+msgid "Select None"
+msgstr "Selecter null"
+
+#: src/photos-selection-toolbar.ui:19
+msgid "Export"
+msgstr "Exportar"
+
+#: src/photos-selection-toolbar.ui:111
+msgid "Add to Album"
+msgstr "Adjunter a un album"
+
+#: src/photos-share-dialog.ui:25
+msgctxt "dialog title"
+msgid "Share"
+msgstr "Partir"
+
+#: src/photos-share-notification.c:148
+#, c-format
+msgid "“%s” shared"
+msgstr "«%s» sta partit"
+
+#: src/photos-share-point-email.c:78
+msgid "E-Mail"
+msgstr "E-post"
+
+#: src/photos-share-point-google.c:103
+msgid "Failed to upload photo: Service not authorized"
+msgstr "Ne successat cargar un foto: li servicie ne es autorisat"
+
+#: src/photos-share-point-google.c:105
+msgid "Failed to upload photo"
+msgstr "Ne successat cargar un foto"
+
+#: src/photos-source-manager.c:465
+msgid "Sources"
+msgstr "Orígines"
+
+#: src/photos-source-notification.c:171
+msgid "New device discovered"
+msgstr "Nov aparate sta decovrit"
+
+#: src/photos-source-notification.c:184
+msgid "Import…"
+msgstr "Importar…"
+
+#. Translators: %s refers to an online account provider, e.g.,
+#. * "Facebook" or "Flickr".
+#.
+#: src/photos-source-notification.c:214
+#, c-format
+msgid "Your %s credentials have expired"
+msgstr "Vor legitimation por %s ha expirat"
+
+#: src/photos-source-notification.c:221
+msgid "Settings"
+msgstr "Parametres"
+
+#: src/photos-thumbnailer.c:74
+msgid "D-Bus address to use"
+msgstr "Adresse D-Bus a usar"
+
+#: src/photos-tool-colors.c:386
+msgid "Contrast"
+msgstr "Contraste"
+
+#: src/photos-tool-colors.c:407
+msgid "Blacks"
+msgstr "Nigri"
+
+#: src/photos-tool-colors.c:428
+msgid "Saturation"
+msgstr "Saturation"
+
+#: src/photos-tool-colors.c:447
+msgid "Shadows"
+msgstr "Ombres"
+
+#: src/photos-tool-colors.c:466
+msgid "Highlights"
+msgstr "Accentus"
+
+#: src/photos-tool-colors.c:495
+msgid "Colors"
+msgstr "Colores"
+
+#: src/photos-tool-crop.c:192
+msgid "Free"
+msgstr "Líber"
+
+#: src/photos-tool-crop.c:193
+msgid "Original"
+msgstr "Original"
+
+#: src/photos-tool-crop.c:194
+msgid "1×1 (Square)"
+msgstr "1×1 (Quadrat)"
+
+#: src/photos-tool-crop.c:195
+msgid "10×8 / 5×4"
+msgstr "10×8 / 5×4"
+
+#: src/photos-tool-crop.c:196
+msgid "4×3 / 8×6 (1024×768)"
+msgstr "4×3 / 8×6 (1024×768)"
+
+#: src/photos-tool-crop.c:197
+msgid "7×5"
+msgstr "7×5"
+
+#: src/photos-tool-crop.c:198
+msgid "3×2 / 6×4"
+msgstr "3×2 / 6×4"
+
+#: src/photos-tool-crop.c:199
+msgid "16×10 (1280×800)"
+msgstr "16×10 (1280×800)"
+
+#: src/photos-tool-crop.c:200
+msgid "16×9 (1920×1080)"
+msgstr "16×9 (1920×1080)"
+
+#: src/photos-tool-crop.c:1459
+msgid "Lock aspect ratio"
+msgstr "Restricter li aspecte"
+
+#: src/photos-tool-crop.c:1529
+msgid "Landscape"
+msgstr "Paisage"
+
+#: src/photos-tool-crop.c:1540
+msgid "Portrait"
+msgstr "Portrete"
+
+#: src/photos-tool-crop.c:1551
+msgid "Reset"
+msgstr "Reverter"
+
+#: src/photos-tool-crop.c:1569
+msgid "Crop"
+msgstr "Tonder"
+
+#: src/photos-tool-enhance.c:197
+msgid "Sharpen"
+msgstr "Nettar"
+
+#: src/photos-tool-enhance.c:218
+msgid "Denoise"
+msgstr "Debruar"
+
+#: src/photos-tool-enhance.c:245
+msgid "Enhance"
+msgstr "Augmentar"
+
+#. Translators: "None" refers to the nop magic filter when editing.
+#: src/photos-tool-filters.c:182
+msgctxt "Edit Filter"
+msgid "None"
+msgstr "Null"
+
+#: src/photos-tool-filters.c:189
+msgid "1947"
+msgstr "1947"
+
+#: src/photos-tool-filters.c:196
+msgid "Calistoga"
+msgstr "Calistoga"
+
+#: src/photos-tool-filters.c:202
+msgid "Trencin"
+msgstr "Trenčín"
+
+#: src/photos-tool-filters.c:209
+msgid "Mogadishu"
+msgstr "Mogadishu"
+
+#: src/photos-tool-filters.c:215
+msgid "Caap"
+msgstr "Caap"
+
+#: src/photos-tool-filters.c:222
+msgid "Hometown"
+msgstr "Hem-cité"
+
+#: src/photos-tool-filters.c:239
+msgid "Filters"
+msgstr "Filtres"
+
+#: src/photos-tracker-controller.c:174
+msgid "Unable to find Tracker on your operating system"
+msgstr "Ne successat trovar Tracker in vor sistema operativ"
+
+#: src/photos-tracker-controller.c:176
+msgid "Unable to fetch the list of photos"
+msgstr "Ne successat obtener li liste de fotos"
