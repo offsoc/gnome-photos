@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-photos/issues\n"
-"POT-Creation-Date: 2022-10-31 10:22+0000\n"
+"POT-Creation-Date: 2022-12-26 13:08+0000\n"
 "Last-Translator: Нанба Наала <naala-nanba@rambler.ru>\n"
 "Language-Team: Abkhazian <daniel.abzakh@gmail.com>\n"
 "Language: ab\n"
@@ -603,7 +603,7 @@ msgstr ""
 msgid "Set as Lock Screen"
 msgstr ""
 
-#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:883
+#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:896
 #: src/photos-selection-toolbar.ui:101
 msgid "Properties"
 msgstr "Аҟазшьаҷыдақәа"
@@ -639,7 +639,7 @@ msgstr "Аҭагылазаашьа"
 
 #: src/photos-print-setup.c:883
 msgid "_Left:"
-msgstr "А_рмарахь:"
+msgstr "А_рмарала:"
 
 #: src/photos-print-setup.c:884
 msgid "_Right:"
@@ -655,7 +655,7 @@ msgstr "_Ҵаҟа"
 
 #: src/photos-print-setup.c:888
 msgid "C_enter:"
-msgstr "_Иеизаку:"
+msgstr "_Агәҭеиҿкаа:"
 
 #: src/photos-print-setup.c:892
 msgid "None"
@@ -663,7 +663,7 @@ msgstr "Мап"
 
 #: src/photos-print-setup.c:893
 msgid "Horizontal"
-msgstr "Ииаланы"
+msgstr "Ииааланы"
 
 #: src/photos-print-setup.c:894
 msgid "Vertical"
@@ -671,7 +671,7 @@ msgstr "Гәҵәыла"
 
 #: src/photos-print-setup.c:895
 msgid "Both"
-msgstr "Ииаланы насгьы гәҵәыла"
+msgstr "Ииааланы насгьы гәҵәыла"
 
 #: src/photos-print-setup.c:911
 msgid "_Width:"
@@ -691,28 +691,28 @@ msgstr "_ак"
 
 #: src/photos-print-setup.c:927
 msgid "Millimeters"
-msgstr "Амиллимитрқәа"
+msgstr "Амииллиметрқәа"
 
 #: src/photos-print-setup.c:928
 msgid "Inches"
-msgstr "Адиуимқәа"
+msgstr "Адиуим"
 
 #: src/photos-print-setup.c:956
 msgid "Preview"
 msgstr "Акьыԥхьра ахәаԥшра"
 
-#: src/photos-properties-dialog.c:246
+#: src/photos-properties-dialog.c:259
 msgid "Edited in Photos"
 msgstr ""
 
-#: src/photos-properties-dialog.c:259
+#: src/photos-properties-dialog.c:272
 msgid "Untouched"
 msgstr ""
 
 #. Translators: this is the label next to the photo title in the
 #. * properties dialog
 #.
-#: src/photos-properties-dialog.c:442
+#: src/photos-properties-dialog.c:455
 msgctxt "Document Title"
 msgid "Title"
 msgstr ""
@@ -720,83 +720,83 @@ msgstr ""
 #. Translators: this is the label next to the photo author in
 #. * the properties dialog
 #.
-#: src/photos-properties-dialog.c:454
+#: src/photos-properties-dialog.c:467
 msgctxt "Document Author"
 msgid "Author"
 msgstr ""
 
-#: src/photos-properties-dialog.c:461
+#: src/photos-properties-dialog.c:474
 msgid "Source"
 msgstr "Алагамҭатә текст"
 
-#: src/photos-properties-dialog.c:467
+#: src/photos-properties-dialog.c:480
 msgid "Date Modified"
 msgstr "Аԥсахра аамҭарба :"
 
-#: src/photos-properties-dialog.c:475
+#: src/photos-properties-dialog.c:488
 msgid "Date Created"
 msgstr ""
 
 #. Translators: this is the label next to the photo type in the
 #. * properties dialog
 #.
-#: src/photos-properties-dialog.c:485
+#: src/photos-properties-dialog.c:498
 msgctxt "Document Type"
 msgid "Type"
 msgstr ""
 
-#: src/photos-properties-dialog.c:495
+#: src/photos-properties-dialog.c:508
 msgid "Dimensions"
 msgstr ""
 
-#: src/photos-properties-dialog.c:507
+#: src/photos-properties-dialog.c:520
 msgid "Location"
 msgstr "Аҭыӡҭыԥ"
 
-#: src/photos-properties-dialog.c:525
+#: src/photos-properties-dialog.c:538
 msgid "Camera"
 msgstr "Акамера"
 
-#: src/photos-properties-dialog.c:535 src/photos-tool-colors.c:365
+#: src/photos-properties-dialog.c:548 src/photos-tool-colors.c:365
 msgid "Exposure"
 msgstr "Аекспозициа"
 
-#: src/photos-properties-dialog.c:545
+#: src/photos-properties-dialog.c:558
 msgid "Aperture"
 msgstr "Апертура"
 
-#: src/photos-properties-dialog.c:555
+#: src/photos-properties-dialog.c:568
 msgid "Focal Length"
 msgstr "Афокустә бжьазаара"
 
-#: src/photos-properties-dialog.c:565
+#: src/photos-properties-dialog.c:578
 msgid "ISO Speed"
 msgstr "ISO"
 
-#: src/photos-properties-dialog.c:575
+#: src/photos-properties-dialog.c:588
 msgid "Flash"
 msgstr ""
 
-#: src/photos-properties-dialog.c:584
+#: src/photos-properties-dialog.c:597
 msgid "Modifications"
 msgstr ""
 
-#: src/photos-properties-dialog.c:656
+#: src/photos-properties-dialog.c:669
 #, c-format
 msgid "%ld × %ld pixel"
 msgid_plural "%ld × %ld pixels"
 msgstr[0] "%ld × %ld пиксельк"
 msgstr[1] "%ld × %ld пиксельк"
 
-#: src/photos-properties-dialog.c:721
+#: src/photos-properties-dialog.c:734
 msgid "Off, did not fire"
 msgstr ""
 
-#: src/photos-properties-dialog.c:723
+#: src/photos-properties-dialog.c:736
 msgid "On, fired"
 msgstr "Иаҿакуп, аус ауит"
 
-#: src/photos-properties-dialog.c:760
+#: src/photos-properties-dialog.c:773
 msgid "Discard all Edits"
 msgstr ""
 
@@ -898,13 +898,13 @@ msgstr ""
 msgid "Settings"
 msgstr "Архиарақәа"
 
-#: src/photos-thumbnailer.c:74
+#: src/photos-thumbnailer.c:75
 msgid "D-Bus address to use"
 msgstr ""
 
 #: src/photos-tool-colors.c:386
 msgid "Contrast"
-msgstr ""
+msgstr "Аиҿагылара"
 
 #: src/photos-tool-colors.c:407
 msgid "Blacks"
