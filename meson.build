@@ -4,7 +4,7 @@ project(
   version: '43.0',
   license: 'GPL3+',
   default_options: 'buildtype=debugoptimized',
-  meson_version: '>= 0.50.0',
+  meson_version: '>= 0.60.0',
 )
 
 photos_prefix = get_option('prefix')
@@ -152,7 +152,7 @@ libgd = subproject(
 )
 libgd_dep = libgd.get_variable('libgd_dep')
 
-babl_dep = dependency('babl-0.1')
+babl_dep = dependency('babl-0.1', 'babl')
 cairo_dep = dependency('cairo', version: '>= 1.14.0')
 gdk_pixbuf_dep = dependency('gdk-pixbuf-2.0', version: '>= 2.36.8')
 gegl_dep = dependency('gegl-0.4', version: '>= 0.4.0')
