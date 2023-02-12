@@ -212,6 +212,7 @@
                 "/share/dbus-1"
             ],
             "config-opts": [
+                "-Dbattery_detection=none",
                 "-Dman=false",
                 "-Dminer_fs=true",
                 "-Dminer_rss=false",
