@@ -1,3 +1,12 @@
+Overview of changes in 44.0
+===============================
+ * build: Adapt for babl .pc file changes
+ * Thumbnails now have the mtime of the original item
+ * photos-properties-dialog: Check geocode results
+ * photos-item-manager: Sort photos by creation time first
+ * Prefer Exif extracted 'contentCreated' value than file creation
+ * Translations updates
+
 Overview of changes in 43.0
 ===============================
  * Drop flickr plugin: It pulls soup2 - Bilal Elmoussaoui
