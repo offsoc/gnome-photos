@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-photos/issues\n"
-"POT-Creation-Date: 2022-12-26 13:08+0000\n"
+"POT-Creation-Date: 2023-01-25 19:20+0000\n"
 "Last-Translator: Нанба Наала <naala-nanba@rambler.ru>\n"
 "Language-Team: Abkhazian <daniel.abzakh@gmail.com>\n"
 "Language: ab\n"
@@ -9,7 +9,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-DamnedLies-Scope: partial\n"
 
 #: data/org.gnome.Photos.appdata.xml.in:7 data/org.gnome.Photos.desktop.in.in:3
 #: src/photos-application.c:2922 src/photos-embed.c:822
@@ -19,7 +18,7 @@ msgstr "Афотосахьақәа"
 
 #: data/org.gnome.Photos.appdata.xml.in:8 src/photos-main-window.c:457
 msgid "Access, organize and share your photos on GNOME"
-msgstr ""
+msgstr "Аԥшранҵақәа рахь анеиреи , анапхгара рыҭареи, урт реиҭныԥсахлареи"
 
 #: data/org.gnome.Photos.appdata.xml.in:10
 msgid ""
@@ -74,12 +73,12 @@ msgstr "The GNOME Project"
 
 #: data/org.gnome.Photos.desktop.in.in:4
 msgid "Access, organize and share photos"
-msgstr ""
+msgstr "Анеирҭа, аԥшранҵақәа анапхгара рыҭареи, рыԥсахреи"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Photos.desktop.in.in:15
 msgid "Photos;Pictures;"
-msgstr ""
+msgstr "аԥшранҵақәа;асахьақәа;"
 
 #: data/org.gnome.photos.gschema.xml:5
 msgid "Window size"
@@ -107,7 +106,7 @@ msgstr "Аԥенџьыр иамоуп иреиҳау ашәагаа"
 
 #: src/photos-application.c:167
 msgid "Show the empty state"
-msgstr ""
+msgstr "Иҭацәу аҭагылазаашьа арбара"
 
 #: src/photos-application.c:168
 msgid "Show the application's version"
@@ -133,12 +132,12 @@ msgstr "Альбом"
 
 #: src/photos-base-item.c:2860
 msgid "Screenshots"
-msgstr ""
+msgstr "Аекран ақәҭыхра"
 
 #: src/photos-delete-notification.c:156
 #, c-format
 msgid "“%s” deleted"
-msgstr ""
+msgstr "Ианыхуп аобиект «%s»"
 
 #: src/photos-delete-notification.c:159
 #, c-format
@@ -153,16 +152,16 @@ msgstr "Архынҳәра"
 
 #: src/photos-dlna-renderers-dialog.ui:7
 msgid "DLNA Renderer Devices"
-msgstr ""
+msgstr "DLNA алаԥшылатәразы аиҿартәыра "
 
 #: src/photos-done-notification.c:112
 #, c-format
 msgid "“%s” edited"
-msgstr ""
+msgstr "Иԥсахуп аобиект «%s»"
 
 #: src/photos-embed.c:827
 msgid "Collection View"
-msgstr ""
+msgstr "Аколлекциа ахәаԥшра арежим"
 
 #: src/photos-embed.c:830 src/photos-search-type-manager.c:83
 msgid "Albums"
@@ -186,15 +185,16 @@ msgstr "Альбомқәа пшааӡам"
 
 #: src/photos-empty-results-box.c:120
 msgid "Starred Photos Will Appear Here"
-msgstr ""
+msgstr "Иалкаау аԥшранҵақәа абраҟа иаарԥшхоит"
 
 #: src/photos-empty-results-box.c:130
 msgid "No Photos Found"
-msgstr ""
+msgstr "аԥшранҵақәа ԥшааӡам"
 
 #: src/photos-empty-results-box.c:155
 msgid "You can create albums from the Photos view"
 msgstr ""
+"Шәара ишәылшоит иаԥышәҵаларц альбомқәа апшранҵакәа рыхәаԥшра арежим аҟны"
 
 #. Translators: this should be translated in the context of
 #. * the "Photos from your Online Accounts and Pictures folder
@@ -210,7 +210,7 @@ msgstr ""
 #.
 #: src/photos-empty-results-box.c:183
 msgid "Pictures folder"
-msgstr ""
+msgstr "Асахьақәа змоу аҭаӡ"
 
 #. Translators: the first %s here is "Online Accounts" and the
 #. * second %s is "Pictures folder", which are in separate
@@ -220,7 +220,7 @@ msgstr ""
 #: src/photos-empty-results-box.c:190
 #, c-format
 msgid "Photos from your %s and %s will appear here."
-msgstr ""
+msgstr "Аԥшранҵақәа  %s иара убас %s рҟынтәи  абраҟа ицәырҵлоит."
 
 #: src/photos-empty-results-box.c:200
 msgid "Try a different search."
@@ -267,20 +267,20 @@ msgstr "%d×%d (%s)"
 
 #: src/photos-export-dialog.c:252
 msgid "Calculating export size…"
-msgstr ""
+msgstr "Аекспорт ашәагаа аԥхьаӡара..."
 
 #: src/photos-export-notification.c:317
 msgid "Failed to export: not enough space"
-msgstr ""
+msgstr "Аекспорт азура залымшеит:аҭыԥ азхаӡом"
 
 #: src/photos-export-notification.c:319
 msgid "Failed to export"
-msgstr ""
+msgstr "Аекспорт азура залымшеит"
 
 #: src/photos-export-notification.c:326
 #, c-format
 msgid "“%s” exported"
-msgstr ""
+msgstr "«%s» аекспорт азуп"
 
 #: src/photos-export-notification.c:330
 #, c-format
@@ -295,7 +295,7 @@ msgstr "Анализҟаҵара"
 
 #: src/photos-export-notification.c:352
 msgid "Empty Trash"
-msgstr ""
+msgstr "Акаҵкәыр арыцқьара "
 
 #. Translators: this is the Open action in a context menu
 #: src/photos-export-notification.c:369 src/photos-preview-menu.ui:6
@@ -308,7 +308,7 @@ msgstr "Аартра"
 #.
 #: src/photos-export-notification.c:379
 msgid "Export Folder"
-msgstr ""
+msgstr "Аекспортҟаҵара аҭаӡ"
 
 #. Translators: this is the fallback title in the form
 #. * "Facebook — 2nd January 2013".
@@ -467,7 +467,7 @@ msgstr ""
 
 #: src/photos-import-dialog.ui:118
 msgid "Add to _Existing"
-msgstr ""
+msgstr "Иҟоу ахь ац–ҵара"
 
 #: src/photos-import-dialog.ui:192 src/photos-organize-collection-dialog.c:69
 msgid "_Add"
@@ -479,28 +479,28 @@ msgstr "_Ацҵара"
 #: src/photos-indexing-notification.c:163
 #, c-format
 msgid "Fetching photos from %s"
-msgstr ""
+msgstr "Афотосахьақәа риура %s рҟынтә"
 
 #: src/photos-indexing-notification.c:166
 msgid "Fetching photos from online accounts"
-msgstr ""
+msgstr "Афотосахьақәа риура аҳатә аҳасабырбатә нҵамҭақәа рҟынтә"
 
 #: src/photos-indexing-notification.c:193
 msgid "Your photos are being indexed"
-msgstr ""
+msgstr "Аԥшранҵақәа аидексркра рзухоит"
 
 #: src/photos-indexing-notification.c:194
 msgid "Some photos might not be available during this process"
-msgstr ""
+msgstr "Ари апроцес аан аԥшранҵақәа руак рызнеира азин ҟамлар ҟалоит"
 
 #: src/photos-item-manager.c:842
 #, c-format
 msgid "Oops! Unable to load “%s”"
-msgstr ""
+msgstr "Изалымшеит аҭагалара «%s»"
 
 #: src/photos-local-item.c:241 src/photos-source-manager.c:399
 msgid "Local"
-msgstr ""
+msgstr "Илокалу "
 
 #: src/photos-main-toolbar.c:80
 msgid "Click on items to select them"
@@ -515,7 +515,7 @@ msgstr[1] ""
 
 #: src/photos-main-toolbar.c:170
 msgid "Select items for import"
-msgstr ""
+msgstr "Иалышәх аелементқәа аимпорт азы"
 
 #: src/photos-main-toolbar.c:174
 #, c-format
@@ -538,15 +538,15 @@ msgstr "Аелементқәа ралхра"
 #: src/photos-share-notification.c:165
 #, c-format
 msgid "Open with %s"
-msgstr ""
+msgstr "%s ацхыраарала аартра"
 
 #: src/photos-main-toolbar.c:442 src/photos-selection-toolbar.c:254
 msgid "Remove from favorites"
-msgstr ""
+msgstr "Иалкаау аҟынтә аныхра"
 
 #: src/photos-main-toolbar.c:447 src/photos-selection-toolbar.c:259
 msgid "Add to favorites"
-msgstr ""
+msgstr "Иалкаау ахь ацҵара"
 
 #: src/photos-main-toolbar.c:492
 msgid "Done"
@@ -581,7 +581,7 @@ msgstr ""
 
 #: src/photos-preview-menu.ui:10
 msgid "Export…"
-msgstr ""
+msgstr "Аекспортҟаҵара "
 
 #: src/photos-preview-menu.ui:14
 msgid "Print…"
@@ -593,15 +593,15 @@ msgstr "Delete"
 
 #: src/photos-preview-menu.ui:23
 msgid "Display on…"
-msgstr ""
+msgstr "Абра арбара"
 
 #: src/photos-preview-menu.ui:27
 msgid "Set as Background"
-msgstr ""
+msgstr "Аусуратә ишәа адыԥшылахәҵас ақәыргылара"
 
 #: src/photos-preview-menu.ui:31
 msgid "Set as Lock Screen"
-msgstr ""
+msgstr "Аанкылара аекран адыԥшылахәҵас ақәыргылара"
 
 #: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:896
 #: src/photos-selection-toolbar.ui:101
@@ -622,12 +622,12 @@ msgstr "_Аилыркаа"
 
 #: src/photos-primary-menu.ui:14
 msgid "About Photos"
-msgstr ""
+msgstr "Аԥшьы иазкны"
 
 #: src/photos-print-notification.c:71
 #, c-format
 msgid "Printing “%s”: %s"
-msgstr ""
+msgstr "Акьыԥхьра «%s»: %s"
 
 #: src/photos-print-operation.c:241
 msgid "Image Settings"
@@ -703,11 +703,11 @@ msgstr "Акьыԥхьра ахәаԥшра"
 
 #: src/photos-properties-dialog.c:259
 msgid "Edited in Photos"
-msgstr ""
+msgstr "Иԥсахуп аԥшьы аԥшранҵаҟны"
 
 #: src/photos-properties-dialog.c:272
 msgid "Untouched"
-msgstr ""
+msgstr "Изкььысым"
 
 #. Translators: this is the label next to the photo title in the
 #. * properties dialog
@@ -735,7 +735,7 @@ msgstr "Аԥсахра аамҭарба :"
 
 #: src/photos-properties-dialog.c:488
 msgid "Date Created"
-msgstr ""
+msgstr "Ианаԥҵаз аамҭарба"
 
 #. Translators: this is the label next to the photo type in the
 #. * properties dialog
@@ -747,7 +747,7 @@ msgstr ""
 
 #: src/photos-properties-dialog.c:508
 msgid "Dimensions"
-msgstr ""
+msgstr "Ашәагаақәа"
 
 #: src/photos-properties-dialog.c:520
 msgid "Location"
@@ -775,11 +775,11 @@ msgstr "ISO"
 
 #: src/photos-properties-dialog.c:588
 msgid "Flash"
-msgstr ""
+msgstr "Алашараҵҟьара"
 
 #: src/photos-properties-dialog.c:597
 msgid "Modifications"
-msgstr ""
+msgstr "Аԥсахрақәа"
 
 #: src/photos-properties-dialog.c:669
 #, c-format
@@ -790,7 +790,7 @@ msgstr[1] "%ld × %ld пиксельк"
 
 #: src/photos-properties-dialog.c:734
 msgid "Off, did not fire"
-msgstr ""
+msgstr "Иаҿыхуп,аус амуӡит"
 
 #: src/photos-properties-dialog.c:736
 msgid "On, fired"
@@ -798,11 +798,11 @@ msgstr "Иаҿакуп, аус ауит"
 
 #: src/photos-properties-dialog.c:773
 msgid "Discard all Edits"
-msgstr ""
+msgstr "Ариашаракәа зегьы раԥыхра"
 
 #: src/photos-removable-devices-button.ui:48
 msgid "Devices"
-msgstr ""
+msgstr "Аиҿартәырақәа"
 
 #: src/photos-search-match-manager.c:149 src/photos-search-type-manager.c:74
 #: src/photos-source-manager.c:396
@@ -850,7 +850,7 @@ msgstr "Аекспорт азура"
 
 #: src/photos-selection-toolbar.ui:111
 msgid "Add to Album"
-msgstr ""
+msgstr "Альбом ахь ацҵара"
 
 #: src/photos-share-dialog.ui:25
 msgctxt "dialog title"
@@ -860,7 +860,7 @@ msgstr ""
 #: src/photos-share-notification.c:148
 #, c-format
 msgid "“%s” shared"
-msgstr ""
+msgstr "«%s» азеиԥш неирҭаҟны"
 
 #: src/photos-share-point-email.c:78
 msgid "E-Mail"
@@ -868,19 +868,19 @@ msgstr "E-Mail"
 
 #: src/photos-share-point-google.c:103
 msgid "Failed to upload photo: Service not authorized"
-msgstr ""
+msgstr "Аԥшранҵамҭа ашьҭра залымшеит:асервис ахаҭара шьақәыргылаӡам"
 
 #: src/photos-share-point-google.c:105
 msgid "Failed to upload photo"
-msgstr ""
+msgstr "Аԥшранҵамҭа ашьҭра залымшеит"
 
 #: src/photos-source-manager.c:465
 msgid "Sources"
-msgstr ""
+msgstr "Ахыҵхырҭақәа"
 
 #: src/photos-source-notification.c:171
 msgid "New device discovered"
-msgstr ""
+msgstr "Аиҿартәыра ҿыц ԥшаауп"
 
 #: src/photos-source-notification.c:184
 msgid "Import…"
@@ -892,7 +892,7 @@ msgstr "аимпорт азура…"
 #: src/photos-source-notification.c:214
 #, c-format
 msgid "Your %s credentials have expired"
-msgstr ""
+msgstr "Шәҳасабырбатә нҵамҭақәа ахархәара   аҿҳәара %s нҵәеит"
 
 #: src/photos-source-notification.c:221
 msgid "Settings"
@@ -900,7 +900,7 @@ msgstr "Архиарақәа"
 
 #: src/photos-thumbnailer.c:75
 msgid "D-Bus address to use"
-msgstr ""
+msgstr "Ахархәара змоу аҭыӡҭыԥ D-Bus"
 
 #: src/photos-tool-colors.c:386
 msgid "Contrast"
@@ -908,7 +908,7 @@ msgstr "Аиҿагылара"
 
 #: src/photos-tool-colors.c:407
 msgid "Blacks"
-msgstr ""
+msgstr "Аиқәаҵәа"
 
 #: src/photos-tool-colors.c:428
 msgid "Saturation"
@@ -916,11 +916,11 @@ msgstr "Аԥштәылгара"
 
 #: src/photos-tool-colors.c:447
 msgid "Shadows"
-msgstr ""
+msgstr "Агыга"
 
 #: src/photos-tool-colors.c:466
 msgid "Highlights"
-msgstr ""
+msgstr "Алашаратә аеффект"
 
 #: src/photos-tool-colors.c:495
 msgid "Colors"
@@ -932,7 +932,7 @@ msgstr "Схы сақәиҭуп"
 
 #: src/photos-tool-crop.c:193
 msgid "Original"
-msgstr ""
+msgstr "Ахаҭа"
 
 #: src/photos-tool-crop.c:194
 msgid "1×1 (Square)"
@@ -964,7 +964,7 @@ msgstr "16×9 (1920×1080)"
 
 #: src/photos-tool-crop.c:1459
 msgid "Lock aspect ratio"
-msgstr ""
+msgstr "Аганқәа реихьыԥшра аанкылара"
 
 #: src/photos-tool-crop.c:1529
 msgid "Landscape"
@@ -980,19 +980,19 @@ msgstr ""
 
 #: src/photos-tool-crop.c:1569
 msgid "Crop"
-msgstr ""
+msgstr "Амырффара"
 
 #: src/photos-tool-enhance.c:197
 msgid "Sharpen"
-msgstr ""
+msgstr "Аиҿагылара ардура"
 
 #: src/photos-tool-enhance.c:218
 msgid "Denoise"
-msgstr ""
+msgstr "Абжьы агара"
 
 #: src/photos-tool-enhance.c:245
 msgid "Enhance"
-msgstr ""
+msgstr "Арӷәӷәара"
 
 #. Translators: "None" refers to the nop magic filter when editing.
 #: src/photos-tool-filters.c:182
@@ -1006,32 +1006,4138 @@ msgstr "1947"
 
 #: src/photos-tool-filters.c:196
 msgid "Calistoga"
-msgstr ""
+msgstr "Аколистога"
 
 #: src/photos-tool-filters.c:202
 msgid "Trencin"
-msgstr ""
+msgstr "Атренчин"
 
 #: src/photos-tool-filters.c:209
 msgid "Mogadishu"
-msgstr ""
+msgstr "Амогадишу"
 
 #: src/photos-tool-filters.c:215
 msgid "Caap"
-msgstr ""
+msgstr "Кеип-Таун"
 
 #: src/photos-tool-filters.c:222
 msgid "Hometown"
-msgstr ""
+msgstr "Аԥсадгьыл"
 
 #: src/photos-tool-filters.c:239
 msgid "Filters"
-msgstr ""
+msgstr "Араӡагақәа"
 
 #: src/photos-tracker-controller.c:168
 msgid "Unable to find Tracker on your operating system"
-msgstr ""
+msgstr "Шәоперациатә системаҟны аԥшьы Tracker аԥшаара залымшеит"
 
 #: src/photos-tracker-controller.c:170
 msgid "Unable to fetch the list of photos"
-msgstr ""
+msgstr "Аԥшранҵақәа рыхьӡынҵа аиура залымшеит"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#, fuzzy
