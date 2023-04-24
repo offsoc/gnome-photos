@@ -35,11 +35,13 @@
 
 #include "photos-application.h"
 #include "photos-device-item.h"
+#include "photos-embed.h"
 #include "photos-enums.h"
 #include "photos-error.h"
 #include "photos-gegl.h"
 #include "photos-google-item.h"
 #include "photos-local-item.h"
+#include "photos-main-window.h"
 #include "photos-media-server-item.h"
 #include "photos-offset-collection-view-controller.h"
 #include "photos-offset-collections-controller.h"
@@ -47,12 +49,17 @@
 #include "photos-offset-import-controller.h"
 #include "photos-offset-overview-controller.h"
 #include "photos-offset-search-controller.h"
+#include "photos-overview-searchbar.h"
 #include "photos-query.h"
-#include "photos-share-point.h"
+#include "photos-removable-device-widget.h"
+#include "photos-removable-devices-button.h"
+#include "photos-selection-toolbar.h"
 #include "photos-share-point-email.h"
 #include "photos-share-point-google.h"
 #include "photos-share-point-online.h"
+#include "photos-share-point.h"
 #include "photos-source.h"
+#include "photos-spinner-box.h"
 #include "photos-thumbnail-factory.h"
 #include "photos-tool.h"
 #include "photos-tool-colors.h"
@@ -714,10 +721,19 @@ photos_utils_ensure_builtins (void)
 
   if (g_once_init_enter (&once_init_value))
     {
+      g_type_ensure (PHOTOS_TYPE_EMBED);
+      g_type_ensure (PHOTOS_TYPE_MAIN_TOOLBAR);
+      g_type_ensure (PHOTOS_TYPE_MAIN_WINDOW);
+
       g_type_ensure (PHOTOS_TYPE_DEVICE_ITEM);
       //g_type_ensure (PHOTOS_TYPE_GOOGLE_ITEM);
       g_type_ensure (PHOTOS_TYPE_LOCAL_ITEM);
       g_type_ensure (PHOTOS_TYPE_MEDIA_SERVER_ITEM);
+      g_type_ensure (PHOTOS_TYPE_OVERVIEW_SEARCHBAR);
+      g_type_ensure (PHOTOS_TYPE_SPINNER_BOX);
+      g_type_ensure (PHOTOS_TYPE_SELECTION_TOOLBAR);
+      g_type_ensure (PHOTOS_TYPE_REMOVABLE_DEVICES_BUTTON);
+      g_type_ensure (PHOTOS_TYPE_REMOVABLE_DEVICE_WIDGET);
 
       g_type_ensure (PHOTOS_TYPE_SHARE_POINT_EMAIL);
       //g_type_ensure (PHOTOS_TYPE_SHARE_POINT_GOOGLE);
@@ -1447,3 +1463,4 @@ photos_utils_take_string (gchar **string_ptr, gchar *new_string)
   g_free (new_string);
   return ret_val;
 }
+
