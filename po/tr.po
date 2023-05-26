@@ -1,21 +1,21 @@
 # Turkish translation for gnome-photos.
-# Copyright (C) 2013-2022 gnome-photos's COPYRIGHT HOLDER
+# Copyright (C) 2013-2023 gnome-photos's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-photos package.
 #
 # Gökhan Gurbetoğlu <ggurbet@gmail.com>, 2013, 2014, 2015.
 # Muhammet Kara <muhammetk@gmail.com>, 2014, 2015, 2016.
 # Burak Kahraman <burakkaankhrmn@gmail.com>, 2018.
-# Sabri Ünal <libreajans@gmail.com>, 2020, 2021.
+# Sabri Ünal <libreajans@gmail.com>, 2020, 2021, 2023.
 # Emin Tufan Çetin <etcetin@gmail.com>, 2017-2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-photos master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-photos/issues\n"
-"POT-Creation-Date: 2023-01-25 19:20+0000\n"
+"POT-Creation-Date: 2023-05-05 14:00+0000\n"
 "PO-Revision-Date: 2023-02-20 04:08+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
-"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -88,7 +88,7 @@ msgstr ""
 "Fotoğraflarınızı uygulamada kolayca düzenleyin veya daha gelişmiş "
 "değişiklikler için tam özellikli düzenleyiciye gönderin"
 
-#: data/org.gnome.Photos.appdata.xml.in:109
+#: data/org.gnome.Photos.appdata.xml.in:110
 msgid "The GNOME Project"
 msgstr "GNOME Projesi"
 
@@ -379,7 +379,7 @@ msgstr "Geri git"
 #: src/photos-help-overlay.ui:95
 msgctxt "shortcut window"
 msgid "Overview"
-msgstr "Genel Görünüm"
+msgstr "Genel Görünüm"
 
 #: src/photos-help-overlay.ui:99
 msgctxt "shortcut window"
@@ -856,11 +856,11 @@ msgstr "Tür"
 
 #: src/photos-selection-menu.ui:6
 msgid "Select All"
-msgstr "Tümünü Seç"
+msgstr "Tümünü Seç"
 
 #: src/photos-selection-menu.ui:11
 msgid "Select None"
-msgstr "Hiçbirini Seçme"
+msgstr "Hiçbirini Seçme"
 
 #: src/photos-selection-toolbar.ui:19
 msgid "Export"
