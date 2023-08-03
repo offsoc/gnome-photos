@@ -682,6 +682,8 @@ photos_application_create_window (PhotosApplication *self)
   if (self->main_window != NULL)
     return TRUE;
 
+  photos_gegl_init ();
+
   gegl_sanity_checked = photos_gegl_sanity_check ();
   g_return_val_if_fail (gegl_sanity_checked, FALSE);
 
@@ -2528,8 +2530,6 @@ photos_application_startup (GApplication *application)
   G_APPLICATION_CLASS (photos_application_parent_class)->startup (application);
 
   hdy_init ();
-
-  photos_gegl_init ();
 
   self->create_window_cancellable = g_cancellable_new ();
   self->refresh_miner_ids = g_hash_table_new (g_direct_hash, g_direct_equal);
