@@ -2980,7 +2980,10 @@ photos_application_search_context_iface_init (PhotosSearchContextInterface *ifac
 GApplication *
 photos_application_new (void)
 {
-  return g_object_new (PHOTOS_TYPE_APPLICATION, "application-id", "org.gnome.Photos", NULL);
+  return g_object_new (PHOTOS_TYPE_APPLICATION,
+                       "application-id", "org.gnome.Photos",
+                       "inactivity-timeout", 10000,
+                       NULL);
 }
 
 
