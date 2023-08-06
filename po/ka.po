@@ -1,26 +1,26 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Georgian translation for gnome-photos.
+# Copyright (C) 2023 gnome-photos's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-photos package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2023
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-photos\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-photos/issues\n"
-"POT-Creation-Date: 2022-03-19 17:38+0000\n"
-"PO-Revision-Date: 2022-05-14 05:53+0200\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"POT-Creation-Date: 2023-08-06 13:25+0000\n"
+"PO-Revision-Date: 2023-08-06 20:01+0200\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
 "Language-Team: Georgian <(nothing)>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: data/org.gnome.Photos.appdata.xml.in:7 data/org.gnome.Photos.desktop.in.in:3
-#: src/photos-application.c:3030 src/photos-embed.c:822
-#: src/photos-main-window.c:437 src/photos-search-type-manager.c:101
+#: src/photos-application.c:2922 src/photos-main-window.c:437
+#: src/photos-search-type-manager.c:101
 msgid "Photos"
 msgstr "ფოტოები"
 
@@ -83,7 +83,7 @@ msgstr ""
 "ჩაასწორეთ სურათები ადვილად ამავე აპლიკაციაში, ან სრულფასოვან რედაქტორში "
 "გადააგზავნეთ"
 
-#: data/org.gnome.Photos.appdata.xml.in:108
+#: data/org.gnome.Photos.appdata.xml.in:110
 msgid "The GNOME Project"
 msgstr "პროექტი \"GNOME\""
 
@@ -120,11 +120,11 @@ msgstr "გადიდებული ფანჯარა"
 msgid "Window maximized state"
 msgstr "ფანჯრის სრულად გაშლილი მდგომარეობა"
 
-#: src/photos-application.c:168
+#: src/photos-application.c:167
 msgid "Show the empty state"
 msgstr "ცარიელი მდგომარეობის ჩვენება"
 
-#: src/photos-application.c:169
+#: src/photos-application.c:168
 msgid "Show the application's version"
 msgstr "აპლიკაციის ვერსიის ჩვენება"
 
@@ -137,16 +137,16 @@ msgstr "აპლიკაციის ვერსიის ჩვენებ�
 #. Translators: this is the name of the default album that will be
 #. * created for imported photos.
 #.
-#: src/photos-application.c:1310 src/photos-export-dialog.c:195
+#: src/photos-application.c:1272 src/photos-export-dialog.c:195
 #: src/photos-import-dialog.c:134
 msgid "%-d %B %Y"
 msgstr "%-d %B %Y"
 
-#: src/photos-base-item.c:1034
+#: src/photos-base-item.c:1032
 msgid "Album"
 msgstr "ალბომი"
 
-#: src/photos-base-item.c:2862
+#: src/photos-base-item.c:2860
 msgid "Screenshots"
 msgstr "ეკრანის ანაბეჭდები"
 
@@ -174,17 +174,21 @@ msgstr "DLNA რენდერერის მოწყობილობებ
 msgid "“%s” edited"
 msgstr "“%s” ჩასწორებულია"
 
+#: src/photos-embed.c:822
+msgid "_Photos"
+msgstr "_ფოტოები"
+
 #: src/photos-embed.c:827
 msgid "Collection View"
 msgstr "კოლექციის ხედი"
 
-#: src/photos-embed.c:830 src/photos-search-type-manager.c:83
-msgid "Albums"
-msgstr "ალბომები"
+#: src/photos-embed.c:830
+msgid "_Albums"
+msgstr "_ალბომები"
 
-#: src/photos-embed.c:835 src/photos-search-type-manager.c:92
-msgid "Favorites"
-msgstr "რჩეულები"
+#: src/photos-embed.c:835
+msgid "_Favorites"
+msgstr "_რჩეულები"
 
 #: src/photos-embed.c:840
 msgid "Import"
@@ -326,7 +330,6 @@ msgstr "გასატანი საქაღალდე"
 #. Translators: this is the fallback title in the form
 #. * "Facebook — 2nd January 2013".
 #.
-#: src/photos-facebook-item.c:100 src/photos-flickr-item.c:102
 #: src/photos-google-item.c:98
 #, c-format
 msgid "%s — %s"
@@ -507,7 +510,7 @@ msgstr "მიმდინარეობს ფოტოების ინდ�
 msgid "Some photos might not be available during this process"
 msgstr "პროცესის მიმდინარეობის დროს ზოგიერთი სურათი შეიძლება მიუწვდომელი იყოს"
 
-#: src/photos-item-manager.c:845
+#: src/photos-item-manager.c:842
 #, c-format
 msgid "Oops! Unable to load “%s”"
 msgstr "ვაი! \"%s\"-ის ჩატვირთვა შეუძლებელია"
@@ -615,7 +618,7 @@ msgstr "ფონად დაყენება"
 msgid "Set as Lock Screen"
 msgstr "ჩაკეტილი ეკრანის ფონზე დაყენება"
 
-#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:883
+#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:896
 #: src/photos-selection-toolbar.ui:101
 msgid "Properties"
 msgstr "თვისებები"
@@ -713,18 +716,18 @@ msgstr "დუიმი"
 msgid "Preview"
 msgstr "მინიატურა"
 
-#: src/photos-properties-dialog.c:246
+#: src/photos-properties-dialog.c:259
 msgid "Edited in Photos"
 msgstr "ჩასწორებულია Photos-ში"
 
-#: src/photos-properties-dialog.c:259
+#: src/photos-properties-dialog.c:272
 msgid "Untouched"
 msgstr "ხელშეუხებელი"
 
 #. Translators: this is the label next to the photo title in the
 #. * properties dialog
 #.
-#: src/photos-properties-dialog.c:442
+#: src/photos-properties-dialog.c:455
 msgctxt "Document Title"
 msgid "Title"
 msgstr "სათაური"
@@ -732,82 +735,82 @@ msgstr "სათაური"
 #. Translators: this is the label next to the photo author in
 #. * the properties dialog
 #.
-#: src/photos-properties-dialog.c:454
+#: src/photos-properties-dialog.c:467
 msgctxt "Document Author"
 msgid "Author"
 msgstr "ავტორი"
 
-#: src/photos-properties-dialog.c:461
+#: src/photos-properties-dialog.c:474
 msgid "Source"
 msgstr "წყარო"
 
-#: src/photos-properties-dialog.c:467
+#: src/photos-properties-dialog.c:480
 msgid "Date Modified"
 msgstr "შეცვლის თარიღი"
 
-#: src/photos-properties-dialog.c:475
+#: src/photos-properties-dialog.c:488
 msgid "Date Created"
 msgstr "შექმნის თარიღი"
 
 #. Translators: this is the label next to the photo type in the
 #. * properties dialog
 #.
-#: src/photos-properties-dialog.c:485
+#: src/photos-properties-dialog.c:498
 msgctxt "Document Type"
 msgid "Type"
 msgstr "ტიპი"
 
-#: src/photos-properties-dialog.c:495
+#: src/photos-properties-dialog.c:508
 msgid "Dimensions"
 msgstr "ზომები"
 
-#: src/photos-properties-dialog.c:507
+#: src/photos-properties-dialog.c:520
 msgid "Location"
 msgstr "მდებარეობა"
 
-#: src/photos-properties-dialog.c:525
+#: src/photos-properties-dialog.c:538
 msgid "Camera"
 msgstr "კამერა"
 
-#: src/photos-properties-dialog.c:535 src/photos-tool-colors.c:365
+#: src/photos-properties-dialog.c:548 src/photos-tool-colors.c:365
 msgid "Exposure"
 msgstr "ექსპოზიცია"
 
-#: src/photos-properties-dialog.c:545
+#: src/photos-properties-dialog.c:558
 msgid "Aperture"
 msgstr "დიაფრაგმის მნიშვნელობა"
 
-#: src/photos-properties-dialog.c:555
+#: src/photos-properties-dialog.c:568
 msgid "Focal Length"
 msgstr "ფოკალური მანძილი"
 
-#: src/photos-properties-dialog.c:565
+#: src/photos-properties-dialog.c:578
 msgid "ISO Speed"
 msgstr "ISO მაჩვენებელი"
 
-#: src/photos-properties-dialog.c:575
+#: src/photos-properties-dialog.c:588
 msgid "Flash"
 msgstr "განათება"
 
-#: src/photos-properties-dialog.c:584
+#: src/photos-properties-dialog.c:597
 msgid "Modifications"
 msgstr "ცვლილებები"
 
-#: src/photos-properties-dialog.c:656
+#: src/photos-properties-dialog.c:669
 #, c-format
 msgid "%ld × %ld pixel"
 msgid_plural "%ld × %ld pixels"
 msgstr[0] "%ld × %ld პიქსელი"
 
-#: src/photos-properties-dialog.c:721
+#: src/photos-properties-dialog.c:734
 msgid "Off, did not fire"
 msgstr "გამორთული, არ ჩართულა"
 
-#: src/photos-properties-dialog.c:723
+#: src/photos-properties-dialog.c:736
 msgid "On, fired"
 msgstr "ჩართული, ჩაირთო"
 
-#: src/photos-properties-dialog.c:760
+#: src/photos-properties-dialog.c:773
 msgid "Discard all Edits"
 msgstr "ყველა ჩასწორების გაუქმება"
 
@@ -838,6 +841,14 @@ msgstr "ავტორი"
 #: src/photos-search-match-manager.c:213
 msgid "Match"
 msgstr "დამთხვევა"
+
+#: src/photos-search-type-manager.c:83
+msgid "Albums"
+msgstr "ალბომები"
+
+#: src/photos-search-type-manager.c:92
+msgid "Favorites"
+msgstr "რჩეულები"
 
 #. Translators: "Type" refers to a search filter. eg., All, Albums,
 #. * Favorites and Photos.
@@ -909,7 +920,7 @@ msgstr "%s-ის თქვენს მომხარებელ/პარო
 msgid "Settings"
 msgstr "პარამეტრები"
 
-#: src/photos-thumbnailer.c:74
+#: src/photos-thumbnailer.c:75
 msgid "D-Bus address to use"
 msgstr "D-Bus-ის მისამართი"
 
@@ -1039,10 +1050,10 @@ msgstr "მშობლიური ქალაქი"
 msgid "Filters"
 msgstr "ფილტრები"
 
-#: src/photos-tracker-controller.c:174
+#: src/photos-tracker-controller.c:168
 msgid "Unable to find Tracker on your operating system"
 msgstr "თქვენს ოპერაციულ სისტემაზე ტრეკერის პოვნა შეუძლებელია"
 
-#: src/photos-tracker-controller.c:176
+#: src/photos-tracker-controller.c:170
 msgid "Unable to fetch the list of photos"
 msgstr "ფოტოების სიის გამოთხოვა შეუძლებელია"
