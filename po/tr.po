@@ -6,14 +6,14 @@
 # Muhammet Kara <muhammetk@gmail.com>, 2014, 2015, 2016.
 # Burak Kahraman <burakkaankhrmn@gmail.com>, 2018.
 # Sabri Ünal <libreajans@gmail.com>, 2020, 2021, 2023.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2017-2021.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2017-2021, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-photos master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-photos/issues\n"
-"POT-Creation-Date: 2023-05-05 14:00+0000\n"
-"PO-Revision-Date: 2023-02-20 04:08+0300\n"
+"POT-Creation-Date: 2023-08-06 13:25+0000\n"
+"PO-Revision-Date: 2023-08-06 18:26+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -21,12 +21,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.2.2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: data/org.gnome.Photos.appdata.xml.in:7 data/org.gnome.Photos.desktop.in.in:3
-#: src/photos-application.c:2922 src/photos-embed.c:822
-#: src/photos-main-window.c:437 src/photos-search-type-manager.c:101
+#: src/photos-application.c:2922 src/photos-main-window.c:437
+#: src/photos-search-type-manager.c:101
 msgid "Photos"
 msgstr "Fotoğraflar"
 
@@ -142,7 +142,7 @@ msgstr "Uygulamanın sürümünü göster"
 #. Translators: this is the name of the default album that will be
 #. * created for imported photos.
 #.
-#: src/photos-application.c:1270 src/photos-export-dialog.c:195
+#: src/photos-application.c:1272 src/photos-export-dialog.c:195
 #: src/photos-import-dialog.c:134
 msgid "%-d %B %Y"
 msgstr "%-d %B %Y"
@@ -179,17 +179,21 @@ msgstr "DLNA Yorumlayıcı Aygıtları"
 msgid "“%s” edited"
 msgstr "“%s” düzenlendi"
 
+#: src/photos-embed.c:822
+msgid "_Photos"
+msgstr "_Fotoğraflar"
+
 #: src/photos-embed.c:827
 msgid "Collection View"
 msgstr "Derlem Görünümü"
 
-#: src/photos-embed.c:830 src/photos-search-type-manager.c:83
-msgid "Albums"
-msgstr "Albümler"
+#: src/photos-embed.c:830
+msgid "_Albums"
+msgstr "_Albümler"
 
-#: src/photos-embed.c:835 src/photos-search-type-manager.c:92
-msgid "Favorites"
-msgstr "Gözdeler"
+#: src/photos-embed.c:835
+msgid "_Favorites"
+msgstr "_Gözdeler"
 
 #: src/photos-embed.c:840
 msgid "Import"
@@ -845,6 +849,14 @@ msgstr "Yazar"
 #: src/photos-search-match-manager.c:213
 msgid "Match"
 msgstr "Eşleştir"
+
+#: src/photos-search-type-manager.c:83
+msgid "Albums"
+msgstr "Albümler"
+
+#: src/photos-search-type-manager.c:92
+msgid "Favorites"
+msgstr "Gözdeler"
 
 #. Translators: "Type" refers to a search filter. eg., All, Albums,
 #. * Favorites and Photos.
