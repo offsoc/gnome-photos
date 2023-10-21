@@ -9,9 +9,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-photos master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-photos/issues\n"
-"POT-Creation-Date: 2021-05-06 11:22+0000\n"
-"PO-Revision-Date: 2021-07-05 22:29+0300\n"
-"Last-Translator: Florentina Mușat <florentina.musat.28@gmail.com>\n"
+"POT-Creation-Date: 2023-08-06 13:25+0000\n"
+"PO-Revision-Date: 2023-10-21 14:54+0300\n"
+"Last-Translator: Florentina Mușat <florentina [dot] musat [dot] 28 [at] "
+"gmail [dot] com>\n"
 "Language-Team: Gnome Romanian Translation Team\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -19,12 +20,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2);\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.4\n"
 "X-Project-Style: gnome\n"
 
 #: data/org.gnome.Photos.appdata.xml.in:7 data/org.gnome.Photos.desktop.in.in:3
-#: src/photos-application.c:3030 src/photos-embed.c:822
-#: src/photos-main-window.c:437 src/photos-search-type-manager.c:101
+#: src/photos-application.c:2922 src/photos-main-window.c:437
+#: src/photos-search-type-manager.c:101
 msgid "Photos"
 msgstr "Fotografii"
 
@@ -87,7 +88,7 @@ msgstr ""
 "Editați ușor fotografiile în aplicație, sau trimiteți-le la un editor "
 "complet pentru modificări mai avansate"
 
-#: data/org.gnome.Photos.appdata.xml.in:99
+#: data/org.gnome.Photos.appdata.xml.in:110
 msgid "The GNOME Project"
 msgstr "Proiectul GNOME"
 
@@ -124,11 +125,11 @@ msgstr "Fereastră maximizată"
 msgid "Window maximized state"
 msgstr "Starea ferestrei maximizate"
 
-#: src/photos-application.c:168
+#: src/photos-application.c:167
 msgid "Show the empty state"
 msgstr "Arată starea goală"
 
-#: src/photos-application.c:169
+#: src/photos-application.c:168
 msgid "Show the application's version"
 msgstr "Arată versiunea aplicației"
 
@@ -141,16 +142,16 @@ msgstr "Arată versiunea aplicației"
 #. Translators: this is the name of the default album that will be
 #. * created for imported photos.
 #.
-#: src/photos-application.c:1310 src/photos-export-dialog.c:195
+#: src/photos-application.c:1272 src/photos-export-dialog.c:195
 #: src/photos-import-dialog.c:134
 msgid "%-d %B %Y"
 msgstr "%-d %B %Y"
 
-#: src/photos-base-item.c:1034
+#: src/photos-base-item.c:1032
 msgid "Album"
 msgstr "Album"
 
-#: src/photos-base-item.c:2862
+#: src/photos-base-item.c:2860
 msgid "Screenshots"
 msgstr "Capturi de ecran"
 
@@ -180,17 +181,21 @@ msgstr "Dispozitive de randare DLNA"
 msgid "“%s” edited"
 msgstr "„%s” editat"
 
+#: src/photos-embed.c:822
+msgid "_Photos"
+msgstr "F_otografii"
+
 #: src/photos-embed.c:827
 msgid "Collection View"
 msgstr "Vizualizare colecție"
 
-#: src/photos-embed.c:830 src/photos-search-type-manager.c:83
-msgid "Albums"
-msgstr "Albume"
+#: src/photos-embed.c:830
+msgid "_Albums"
+msgstr "_Albume"
 
-#: src/photos-embed.c:835 src/photos-search-type-manager.c:92
-msgid "Favorites"
-msgstr "Favorite"
+#: src/photos-embed.c:835
+msgid "_Favorites"
+msgstr "_Favorite"
 
 #: src/photos-embed.c:840
 msgid "Import"
@@ -334,7 +339,6 @@ msgstr "Exportă dosarul"
 #. Translators: this is the fallback title in the form
 #. * "Facebook — 2nd January 2013".
 #.
-#: src/photos-facebook-item.c:100 src/photos-flickr-item.c:102
 #: src/photos-google-item.c:98
 #, c-format
 msgid "%s — %s"
@@ -515,7 +519,7 @@ msgstr "Fotografiile se indexează"
 msgid "Some photos might not be available during this process"
 msgstr "Unele fotografii pot să nu fie disponibile pe durata procesului"
 
-#: src/photos-item-manager.c:845
+#: src/photos-item-manager.c:842
 #, c-format
 msgid "Oops! Unable to load “%s”"
 msgstr "Ups! Nu s-a putut încărca „%s”"
@@ -594,7 +598,7 @@ msgid "translator-credits"
 msgstr ""
 "Bogdan Mințoi <mintoi.bogdan [at] gmail [dot] com>\n"
 "Florentina Mușat <florentina [dot] musat [dot] 28 [at] gmail [dot] com>, "
-"2019-2021"
+"2019-2021, 2023"
 
 #: src/photos-organize-collection-dialog.c:70
 msgid "_OK"
@@ -630,7 +634,7 @@ msgstr "Stabilește ca fundal"
 msgid "Set as Lock Screen"
 msgstr "Stabiliți ca fundal"
 
-#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:883
+#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:896
 #: src/photos-selection-toolbar.ui:101
 msgid "Properties"
 msgstr "Proprietăți"
@@ -728,18 +732,18 @@ msgstr "Țoli"
 msgid "Preview"
 msgstr "Previzualizare"
 
-#: src/photos-properties-dialog.c:246
+#: src/photos-properties-dialog.c:259
 msgid "Edited in Photos"
 msgstr "Editat în Fotografii"
 
-#: src/photos-properties-dialog.c:259
+#: src/photos-properties-dialog.c:272
 msgid "Untouched"
 msgstr "Intact"
 
 #. Translators: this is the label next to the photo title in the
 #. * properties dialog
 #.
-#: src/photos-properties-dialog.c:442
+#: src/photos-properties-dialog.c:455
 msgctxt "Document Title"
 msgid "Title"
 msgstr "Titlu"
@@ -747,68 +751,68 @@ msgstr "Titlu"
 #. Translators: this is the label next to the photo author in
 #. * the properties dialog
 #.
-#: src/photos-properties-dialog.c:454
+#: src/photos-properties-dialog.c:467
 msgctxt "Document Author"
 msgid "Author"
 msgstr "Autor"
 
-#: src/photos-properties-dialog.c:461
+#: src/photos-properties-dialog.c:474
 msgid "Source"
 msgstr "Sursă"
 
-#: src/photos-properties-dialog.c:467
+#: src/photos-properties-dialog.c:480
 msgid "Date Modified"
 msgstr "Data modificării"
 
-#: src/photos-properties-dialog.c:475
+#: src/photos-properties-dialog.c:488
 msgid "Date Created"
 msgstr "Data creării"
 
 #. Translators: this is the label next to the photo type in the
 #. * properties dialog
 #.
-#: src/photos-properties-dialog.c:485
+#: src/photos-properties-dialog.c:498
 msgctxt "Document Type"
 msgid "Type"
 msgstr "Tip"
 
-#: src/photos-properties-dialog.c:495
+#: src/photos-properties-dialog.c:508
 msgid "Dimensions"
 msgstr "Dimensiuni"
 
-#: src/photos-properties-dialog.c:507
+#: src/photos-properties-dialog.c:520
 msgid "Location"
 msgstr "Locație"
 
-#: src/photos-properties-dialog.c:525
+#: src/photos-properties-dialog.c:538
 msgid "Camera"
 msgstr "Cameră"
 
-#: src/photos-properties-dialog.c:535 src/photos-tool-colors.c:365
+#: src/photos-properties-dialog.c:548 src/photos-tool-colors.c:365
 msgid "Exposure"
 msgstr "Expunere"
 
-#: src/photos-properties-dialog.c:545
+#: src/photos-properties-dialog.c:558
 msgid "Aperture"
 msgstr "Deschidere"
 
-#: src/photos-properties-dialog.c:555
+#: src/photos-properties-dialog.c:568
 msgid "Focal Length"
 msgstr "Distanța focală"
 
-#: src/photos-properties-dialog.c:565
+#: src/photos-properties-dialog.c:578
 msgid "ISO Speed"
 msgstr "Viteza ISO"
 
-#: src/photos-properties-dialog.c:575
+#: src/photos-properties-dialog.c:588
 msgid "Flash"
 msgstr "Bliț"
 
-#: src/photos-properties-dialog.c:584
+#: src/photos-properties-dialog.c:597
 msgid "Modifications"
 msgstr "Modificări"
 
-#: src/photos-properties-dialog.c:656
+#: src/photos-properties-dialog.c:669
 #, c-format
 msgid "%ld × %ld pixel"
 msgid_plural "%ld × %ld pixels"
@@ -816,19 +820,19 @@ msgstr[0] "%ld × %ld pixel"
 msgstr[1] "%ld × %ld pixeli"
 msgstr[2] "%ld × %ld de pixeli"
 
-#: src/photos-properties-dialog.c:721
+#: src/photos-properties-dialog.c:734
 msgid "Off, did not fire"
 msgstr "Absent, nu s-a folosit"
 
-#: src/photos-properties-dialog.c:723
+#: src/photos-properties-dialog.c:736
 msgid "On, fired"
 msgstr "Prezent, s-a folosit"
 
-#: src/photos-properties-dialog.c:760
+#: src/photos-properties-dialog.c:773
 msgid "Discard all Edits"
 msgstr "Renunță la toate editările"
 
-#: src/photos-removable-devices-button.ui:47
+#: src/photos-removable-devices-button.ui:48
 msgid "Devices"
 msgstr "Dispozitive"
 
@@ -855,6 +859,14 @@ msgstr "Autor"
 #: src/photos-search-match-manager.c:213
 msgid "Match"
 msgstr "Potrivire"
+
+#: src/photos-search-type-manager.c:83
+msgid "Albums"
+msgstr "Albume"
+
+#: src/photos-search-type-manager.c:92
+msgid "Favorites"
+msgstr "Favorite"
 
 #. Translators: "Type" refers to a search filter. eg., All, Albums,
 #. * Favorites and Photos.
@@ -926,7 +938,7 @@ msgstr "Certificările %s au expirat"
 msgid "Settings"
 msgstr "Setări"
 
-#: src/photos-thumbnailer.c:74
+#: src/photos-thumbnailer.c:75
 msgid "D-Bus address to use"
 msgstr "Adresa D-Bus de utilizat"
 
@@ -1056,11 +1068,11 @@ msgstr "Oraș natal"
 msgid "Filters"
 msgstr "Filtre"
 
-#: src/photos-tracker-controller.c:174
+#: src/photos-tracker-controller.c:168
 msgid "Unable to find Tracker on your operating system"
 msgstr "Nu s-a putut găsi Tracker în sistemul de operare"
 
-#: src/photos-tracker-controller.c:176
+#: src/photos-tracker-controller.c:170
 msgid "Unable to fetch the list of photos"
 msgstr "Nu se poate prelua lista de fotografii"
 
