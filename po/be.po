@@ -7,21 +7,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-photos master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-photos/issues\n"
-"POT-Creation-Date: 2021-10-03 09:00+0000\n"
-"PO-Revision-Date: 2021-10-06 20:53+0300\n"
-"Last-Translator: Launchpad translators\n"
+"POT-Creation-Date: 2023-10-21 11:55+0000\n"
+"PO-Revision-Date: 2023-10-25 22:40+0300\n"
+"Last-Translator: Yuras Shumovich <shumovichy@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: data/org.gnome.Photos.appdata.xml.in:7 data/org.gnome.Photos.desktop.in.in:3
-#: src/photos-application.c:3030 src/photos-embed.c:822
-#: src/photos-main-window.c:437 src/photos-search-type-manager.c:101
+#: src/photos-application.c:2922 src/photos-main-window.c:437
+#: src/photos-search-type-manager.c:101
 msgid "Photos"
 msgstr "Фатаграфіі"
 
@@ -84,7 +84,7 @@ msgstr ""
 "Простае рэдагаванне выяў непасрэдна ў праграме або адпраўка ў паўнавартасны "
 "рэдактар для больш значных змен"
 
-#: data/org.gnome.Photos.appdata.xml.in:99
+#: data/org.gnome.Photos.appdata.xml.in:110
 msgid "The GNOME Project"
 msgstr "Праект GNOME"
 
@@ -121,11 +121,11 @@ msgstr "Акно разгорнута"
 msgid "Window maximized state"
 msgstr "Стан акна – разгорнута"
 
-#: src/photos-application.c:168
+#: src/photos-application.c:167
 msgid "Show the empty state"
 msgstr "Паказаць пусты стан"
 
-#: src/photos-application.c:169
+#: src/photos-application.c:168
 msgid "Show the application's version"
 msgstr "Паказаць версію праграмы"
 
@@ -138,16 +138,16 @@ msgstr "Паказаць версію праграмы"
 #. Translators: this is the name of the default album that will be
 #. * created for imported photos.
 #.
-#: src/photos-application.c:1310 src/photos-export-dialog.c:195
+#: src/photos-application.c:1272 src/photos-export-dialog.c:195
 #: src/photos-import-dialog.c:134
 msgid "%-d %B %Y"
 msgstr "%-d %B %Y"
 
-#: src/photos-base-item.c:1034
+#: src/photos-base-item.c:1032
 msgid "Album"
 msgstr "Альбом"
 
-#: src/photos-base-item.c:2862
+#: src/photos-base-item.c:2860
 msgid "Screenshots"
 msgstr "Здымкі экрана"
 
@@ -177,17 +177,21 @@ msgstr "Прылады DLNA"
 msgid "“%s” edited"
 msgstr "«%s» зменены"
 
+#: src/photos-embed.c:822
+msgid "_Photos"
+msgstr "_Фатаграфіі"
+
 #: src/photos-embed.c:827
 msgid "Collection View"
 msgstr "Прагляд калекцыі"
 
-#: src/photos-embed.c:830 src/photos-search-type-manager.c:83
-msgid "Albums"
-msgstr "Альбомы"
+#: src/photos-embed.c:830
+msgid "_Albums"
+msgstr "Альбом_ы"
 
-#: src/photos-embed.c:835 src/photos-search-type-manager.c:92
-msgid "Favorites"
-msgstr "Абраныя"
+#: src/photos-embed.c:835
+msgid "_Favorites"
+msgstr "_Абраныя"
 
 #: src/photos-embed.c:840
 msgid "Import"
@@ -331,7 +335,6 @@ msgstr "Экспартаваць папку"
 #. Translators: this is the fallback title in the form
 #. * "Facebook — 2nd January 2013".
 #.
-#: src/photos-facebook-item.c:100 src/photos-flickr-item.c:102
 #: src/photos-google-item.c:98
 #, c-format
 msgid "%s — %s"
@@ -512,7 +515,7 @@ msgstr "Выявы праіндэксаваны"
 msgid "Some photos might not be available during this process"
 msgstr "Падчас гэтага працэсу некаторыя выявы могуць быць недаступнымі"
 
-#: src/photos-item-manager.c:845
+#: src/photos-item-manager.c:842
 #, c-format
 msgid "Oops! Unable to load “%s”"
 msgstr "Вой! Не ўдалося загрузіць «%s»"
@@ -624,7 +627,7 @@ msgstr "Зрабіць фонам працоўнага стала"
 msgid "Set as Lock Screen"
 msgstr "Зрабіць фонам экрана блакавання"
 
-#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:883
+#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:896
 #: src/photos-selection-toolbar.ui:101
 msgid "Properties"
 msgstr "Уласцівасці"
@@ -722,18 +725,18 @@ msgstr "Цалі"
 msgid "Preview"
 msgstr "Папярэдні прагляд"
 
-#: src/photos-properties-dialog.c:246
+#: src/photos-properties-dialog.c:259
 msgid "Edited in Photos"
 msgstr "Зменена праз Photos"
 
-#: src/photos-properties-dialog.c:259
+#: src/photos-properties-dialog.c:272
 msgid "Untouched"
 msgstr "Не змянялася"
 
 #. Translators: this is the label next to the photo title in the
 #. * properties dialog
 #.
-#: src/photos-properties-dialog.c:442
+#: src/photos-properties-dialog.c:455
 msgctxt "Document Title"
 msgid "Title"
 msgstr "Загаловак"
@@ -741,68 +744,68 @@ msgstr "Загаловак"
 #. Translators: this is the label next to the photo author in
 #. * the properties dialog
 #.
-#: src/photos-properties-dialog.c:454
+#: src/photos-properties-dialog.c:467
 msgctxt "Document Author"
 msgid "Author"
 msgstr "Аўтар"
 
-#: src/photos-properties-dialog.c:461
+#: src/photos-properties-dialog.c:474
 msgid "Source"
 msgstr "Крыніца"
 
-#: src/photos-properties-dialog.c:467
+#: src/photos-properties-dialog.c:480
 msgid "Date Modified"
 msgstr "Дата змянення"
 
-#: src/photos-properties-dialog.c:475
+#: src/photos-properties-dialog.c:488
 msgid "Date Created"
 msgstr "Дата стварэння"
 
 #. Translators: this is the label next to the photo type in the
 #. * properties dialog
 #.
-#: src/photos-properties-dialog.c:485
+#: src/photos-properties-dialog.c:498
 msgctxt "Document Type"
 msgid "Type"
 msgstr "Тып"
 
-#: src/photos-properties-dialog.c:495
+#: src/photos-properties-dialog.c:508
 msgid "Dimensions"
 msgstr "Памеры"
 
-#: src/photos-properties-dialog.c:507
+#: src/photos-properties-dialog.c:520
 msgid "Location"
 msgstr "Месцазнаходжанне"
 
-#: src/photos-properties-dialog.c:525
+#: src/photos-properties-dialog.c:538
 msgid "Camera"
 msgstr "Камера"
 
-#: src/photos-properties-dialog.c:535 src/photos-tool-colors.c:365
+#: src/photos-properties-dialog.c:548 src/photos-tool-colors.c:365
 msgid "Exposure"
 msgstr "Экспазіцыя"
 
-#: src/photos-properties-dialog.c:545
+#: src/photos-properties-dialog.c:558
 msgid "Aperture"
 msgstr "Дыяфрагма"
 
-#: src/photos-properties-dialog.c:555
+#: src/photos-properties-dialog.c:568
 msgid "Focal Length"
 msgstr "Фокусная адлегласць"
 
-#: src/photos-properties-dialog.c:565
+#: src/photos-properties-dialog.c:578
 msgid "ISO Speed"
 msgstr "ISO"
 
-#: src/photos-properties-dialog.c:575
+#: src/photos-properties-dialog.c:588
 msgid "Flash"
 msgstr "Успышка"
 
-#: src/photos-properties-dialog.c:584
+#: src/photos-properties-dialog.c:597
 msgid "Modifications"
 msgstr "Змяненні"
 
-#: src/photos-properties-dialog.c:656
+#: src/photos-properties-dialog.c:669
 #, c-format
 msgid "%ld × %ld pixel"
 msgid_plural "%ld × %ld pixels"
@@ -810,19 +813,19 @@ msgstr[0] "%ld × %ld піксель"
 msgstr[1] "%ld × %ld пікселі"
 msgstr[2] "%ld × %ld пікселяў"
 
-#: src/photos-properties-dialog.c:721
+#: src/photos-properties-dialog.c:734
 msgid "Off, did not fire"
 msgstr "Выключана, без успышкі"
 
-#: src/photos-properties-dialog.c:723
+#: src/photos-properties-dialog.c:736
 msgid "On, fired"
 msgstr "Уключана, са ўспышкай"
 
-#: src/photos-properties-dialog.c:760
+#: src/photos-properties-dialog.c:773
 msgid "Discard all Edits"
 msgstr "Скасаваць усе змены"
 
-#: src/photos-removable-devices-button.ui:47
+#: src/photos-removable-devices-button.ui:48
 msgid "Devices"
 msgstr "Прылады"
 
@@ -849,6 +852,14 @@ msgstr "Аўтар"
 #: src/photos-search-match-manager.c:213
 msgid "Match"
 msgstr "Адпаведнасці"
+
+#: src/photos-search-type-manager.c:83
+msgid "Albums"
+msgstr "Альбомы"
+
+#: src/photos-search-type-manager.c:92
+msgid "Favorites"
+msgstr "Абраныя"
 
 #. Translators: "Type" refers to a search filter. eg., All, Albums,
 #. * Favorites and Photos.
@@ -920,7 +931,7 @@ msgstr "Скончыўся тэрмін дзеяння ўліковых даны
 msgid "Settings"
 msgstr "Налады"
 
-#: src/photos-thumbnailer.c:74
+#: src/photos-thumbnailer.c:75
 msgid "D-Bus address to use"
 msgstr "Адрас D-Bus"
 
@@ -1050,10 +1061,10 @@ msgstr "Хомтаўн"
 msgid "Filters"
 msgstr "Фільтры"
 
-#: src/photos-tracker-controller.c:174
+#: src/photos-tracker-controller.c:168
 msgid "Unable to find Tracker on your operating system"
 msgstr "Не ўдалося знайсці ў вашай сістэме Tracker"
 
-#: src/photos-tracker-controller.c:176
+#: src/photos-tracker-controller.c:170
 msgid "Unable to fetch the list of photos"
 msgstr "Не ўдалося атрымаць спіс выяў"
