@@ -1,13 +1,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021.
+# SPDX-FileCopyrightText: 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2024 Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-photos/issues\n"
-"POT-Creation-Date: 2021-05-06 11:22+0000\n"
-"PO-Revision-Date: 2021-10-25 19:42+0300\n"
+"POT-Creation-Date: 2023-08-06 13:25+0000\n"
+"PO-Revision-Date: 2024-03-02 19:04+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "Language: lv\n"
@@ -16,11 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 :"
 " 2);\n"
-"X-Generator: Lokalize 21.08.1\n"
+"X-Generator: Lokalize 23.08.1\n"
 
 #: data/org.gnome.Photos.appdata.xml.in:7 data/org.gnome.Photos.desktop.in.in:3
-#: src/photos-application.c:3030 src/photos-embed.c:822
-#: src/photos-main-window.c:437 src/photos-search-type-manager.c:101
+#: src/photos-application.c:2922 src/photos-main-window.c:437
+#: src/photos-search-type-manager.c:101
 msgid "Photos"
 msgstr "Fotogrāfijas"
 
@@ -83,7 +83,7 @@ msgstr ""
 "Viegli rediģējiet savas fotogrāfijas lietotnē, vai sūtiet tās uz redaktoru "
 "ar plašākām rediģēšanas iespējām"
 
-#: data/org.gnome.Photos.appdata.xml.in:99
+#: data/org.gnome.Photos.appdata.xml.in:110
 msgid "The GNOME Project"
 msgstr "GNOME projekts"
 
@@ -120,11 +120,11 @@ msgstr "Logs maksimizēts"
 msgid "Window maximized state"
 msgstr "Loga stāvoklis — maksimizēts"
 
-#: src/photos-application.c:168
+#: src/photos-application.c:167
 msgid "Show the empty state"
 msgstr "Rādīt tukšu stāvokli"
 
-#: src/photos-application.c:169
+#: src/photos-application.c:168
 msgid "Show the application's version"
 msgstr "Rādīt lietotnes versiju"
 
@@ -137,16 +137,16 @@ msgstr "Rādīt lietotnes versiju"
 #. Translators: this is the name of the default album that will be
 #. * created for imported photos.
 #.
-#: src/photos-application.c:1310 src/photos-export-dialog.c:195
+#: src/photos-application.c:1272 src/photos-export-dialog.c:195
 #: src/photos-import-dialog.c:134
 msgid "%-d %B %Y"
 msgstr "%Y. gada %d. %B"
 
-#: src/photos-base-item.c:1034
+#: src/photos-base-item.c:1032
 msgid "Album"
 msgstr "Albums"
 
-#: src/photos-base-item.c:2862
+#: src/photos-base-item.c:2860
 msgid "Screenshots"
 msgstr "Ekrānattēli"
 
@@ -176,17 +176,24 @@ msgstr "DLNA attēlošanas ierīces"
 msgid "“%s” edited"
 msgstr "“%s” rediģēts"
 
+#: src/photos-embed.c:822
+#| msgid "Photos"
+msgid "_Photos"
+msgstr "_Fotogrāfijas"
+
 #: src/photos-embed.c:827
 msgid "Collection View"
 msgstr "Kolekcijas skats"
 
-#: src/photos-embed.c:830 src/photos-search-type-manager.c:83
-msgid "Albums"
-msgstr "Albumi"
+#: src/photos-embed.c:830
+#| msgid "Albums"
+msgid "_Albums"
+msgstr "_Albumi"
 
-#: src/photos-embed.c:835 src/photos-search-type-manager.c:92
-msgid "Favorites"
-msgstr "Izlase"
+#: src/photos-embed.c:835
+#| msgid "Favorites"
+msgid "_Favorites"
+msgstr "_Izlase"
 
 #: src/photos-embed.c:840
 msgid "Import"
@@ -330,7 +337,6 @@ msgstr "Eksportēt mapi"
 #. Translators: this is the fallback title in the form
 #. * "Facebook — 2nd January 2013".
 #.
-#: src/photos-facebook-item.c:100 src/photos-flickr-item.c:102
 #: src/photos-google-item.c:98
 #, c-format
 msgid "%s — %s"
@@ -511,7 +517,7 @@ msgstr "Fotogrāfijas tiek indeksētas"
 msgid "Some photos might not be available during this process"
 msgstr "Šajā laikā dažas fotogrāfijas varētu nebūt pieejamas"
 
-#: src/photos-item-manager.c:845
+#: src/photos-item-manager.c:842
 #, c-format
 msgid "Oops! Unable to load “%s”"
 msgstr "Ak vai! Neizdevās ielādēt “%s”"
@@ -577,9 +583,6 @@ msgid "_Select"
 msgstr "Izvēlētie_s"
 
 #: src/photos-main-window.c:458
-#| msgid ""
-#| "Copyright © 2012 – 2019 Red Hat, Inc.\n"
-#| "Copyright © 2015 – 2018 Umang Jain"
 msgid ""
 "Copyright © 2012 – 2021 Red Hat, Inc.\n"
 "Copyright © 2015 – 2018 Umang Jain"
@@ -626,7 +629,7 @@ msgstr "Iestatīt kā fonu"
 msgid "Set as Lock Screen"
 msgstr "Iestatīt kā ekrāna bloķētāju"
 
-#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:883
+#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:896
 #: src/photos-selection-toolbar.ui:101
 msgid "Properties"
 msgstr "Īpašības"
@@ -724,18 +727,18 @@ msgstr "Collas"
 msgid "Preview"
 msgstr "Priekšskatījums"
 
-#: src/photos-properties-dialog.c:246
+#: src/photos-properties-dialog.c:259
 msgid "Edited in Photos"
 msgstr "Rediģēts “Fotogrāfijās”"
 
-#: src/photos-properties-dialog.c:259
+#: src/photos-properties-dialog.c:272
 msgid "Untouched"
 msgstr "Nav aiztikta"
 
 #. Translators: this is the label next to the photo title in the
 #. * properties dialog
 #.
-#: src/photos-properties-dialog.c:442
+#: src/photos-properties-dialog.c:455
 msgctxt "Document Title"
 msgid "Title"
 msgstr "Nosaukums"
@@ -743,68 +746,68 @@ msgstr "Nosaukums"
 #. Translators: this is the label next to the photo author in
 #. * the properties dialog
 #.
-#: src/photos-properties-dialog.c:454
+#: src/photos-properties-dialog.c:467
 msgctxt "Document Author"
 msgid "Author"
 msgstr "Autors"
 
-#: src/photos-properties-dialog.c:461
+#: src/photos-properties-dialog.c:474
 msgid "Source"
 msgstr "Avots"
 
-#: src/photos-properties-dialog.c:467
+#: src/photos-properties-dialog.c:480
 msgid "Date Modified"
 msgstr "Izmaiņu datums"
 
-#: src/photos-properties-dialog.c:475
+#: src/photos-properties-dialog.c:488
 msgid "Date Created"
 msgstr "Izveidošanas datums"
 
 #. Translators: this is the label next to the photo type in the
 #. * properties dialog
 #.
-#: src/photos-properties-dialog.c:485
+#: src/photos-properties-dialog.c:498
 msgctxt "Document Type"
 msgid "Type"
 msgstr "Tips"
 
-#: src/photos-properties-dialog.c:495
+#: src/photos-properties-dialog.c:508
 msgid "Dimensions"
 msgstr "Dimensijas"
 
-#: src/photos-properties-dialog.c:507
+#: src/photos-properties-dialog.c:520
 msgid "Location"
 msgstr "Vieta"
 
-#: src/photos-properties-dialog.c:525
+#: src/photos-properties-dialog.c:538
 msgid "Camera"
 msgstr "Fotoaparāts"
 
-#: src/photos-properties-dialog.c:535 src/photos-tool-colors.c:365
+#: src/photos-properties-dialog.c:548 src/photos-tool-colors.c:365
 msgid "Exposure"
 msgstr "Ekspozīcija"
 
-#: src/photos-properties-dialog.c:545
+#: src/photos-properties-dialog.c:558
 msgid "Aperture"
 msgstr "Diafragma"
 
-#: src/photos-properties-dialog.c:555
+#: src/photos-properties-dialog.c:568
 msgid "Focal Length"
 msgstr "Fokālais attālums"
 
-#: src/photos-properties-dialog.c:565
+#: src/photos-properties-dialog.c:578
 msgid "ISO Speed"
 msgstr "ISO ātrums"
 
-#: src/photos-properties-dialog.c:575
+#: src/photos-properties-dialog.c:588
 msgid "Flash"
 msgstr "Zibspuldze"
 
-#: src/photos-properties-dialog.c:584
+#: src/photos-properties-dialog.c:597
 msgid "Modifications"
 msgstr "Modifikācijas"
 
-#: src/photos-properties-dialog.c:656
+#: src/photos-properties-dialog.c:669
 #, c-format
 msgid "%ld × %ld pixel"
 msgid_plural "%ld × %ld pixels"
@@ -812,19 +815,19 @@ msgstr[0] "%ld × %ld pikselis"
 msgstr[1] "%ld × %ld pikseļi"
 msgstr[2] "%ld × %ld pikseļu"
 
-#: src/photos-properties-dialog.c:721
+#: src/photos-properties-dialog.c:734
 msgid "Off, did not fire"
 msgstr "Izslēgta, neuzzibsnīja"
 
-#: src/photos-properties-dialog.c:723
+#: src/photos-properties-dialog.c:736
 msgid "On, fired"
 msgstr "Ieslēgta, uzzibsnīja"
 
-#: src/photos-properties-dialog.c:760
+#: src/photos-properties-dialog.c:773
 msgid "Discard all Edits"
 msgstr "Izmest visas izmaiņas"
 
-#: src/photos-removable-devices-button.ui:47
+#: src/photos-removable-devices-button.ui:48
 msgid "Devices"
 msgstr "Ierīces"
 
@@ -851,6 +854,14 @@ msgstr "Autors"
 #: src/photos-search-match-manager.c:213
 msgid "Match"
 msgstr "Atbilst"
+
+#: src/photos-search-type-manager.c:83
+msgid "Albums"
+msgstr "Albumi"
+
+#: src/photos-search-type-manager.c:92
+msgid "Favorites"
+msgstr "Izlase"
 
 #. Translators: "Type" refers to a search filter. eg., All, Albums,
 #. * Favorites and Photos.
@@ -922,7 +933,7 @@ msgstr "Jūsu %s akreditācijas datu derīguma termiņš ir beidzies"
 msgid "Settings"
 msgstr "Iestatījumi"
 
-#: src/photos-thumbnailer.c:74
+#: src/photos-thumbnailer.c:75
 msgid "D-Bus address to use"
 msgstr "D-Bus adrese, ko izmantot"
 
@@ -1052,11 +1063,11 @@ msgstr "Dzimtā pilsēta"
 msgid "Filters"
 msgstr "Filtri"
 
-#: src/photos-tracker-controller.c:174
+#: src/photos-tracker-controller.c:168
 msgid "Unable to find Tracker on your operating system"
 msgstr "Neizdevās uz jūsu operētājsistēmas atrast Tracker"
 
-#: src/photos-tracker-controller.c:176
+#: src/photos-tracker-controller.c:170
 msgid "Unable to fetch the list of photos"
 msgstr "Neizdevās saņemt fotogrāfiju sarakstu"
 
@@ -1074,3 +1085,4 @@ msgstr "Neizdevās saņemt fotogrāfiju sarakstu"
 
 #~ msgid "Send photos to remote DLNA renderers"
 #~ msgstr "Sūtiet fotogrāfijas uz attālinātiem DLNA attēlotājiem"
+
