@@ -8,9 +8,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-photos master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-photos/issues\n"
-"POT-Creation-Date: 2021-06-25 19:06+0000\n"
-"PO-Revision-Date: 2021-06-30 21:57+0200\n"
-"Last-Translator: Matej Urbančič <mateju@src.gnome.org>\n"
+"POT-Creation-Date: 2023-08-06 13:25+0000\n"
+"PO-Revision-Date: 2024-03-31 10:59+0200\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: sl_SI\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
 "%100==4 ? 3 : 0);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #: data/org.gnome.Photos.appdata.xml.in:7 data/org.gnome.Photos.desktop.in.in:3
-#: src/photos-application.c:3030 src/photos-embed.c:822
-#: src/photos-main-window.c:437 src/photos-search-type-manager.c:101
+#: src/photos-application.c:2922 src/photos-main-window.c:437
+#: src/photos-search-type-manager.c:101
 msgid "Photos"
 msgstr "Fotografije"
 
@@ -84,7 +84,7 @@ msgid ""
 "more advanced changes"
 msgstr "Enostavno urejanje slik in podpora za napredne možnosti urejevalnika"
 
-#: data/org.gnome.Photos.appdata.xml.in:99
+#: data/org.gnome.Photos.appdata.xml.in:110
 msgid "The GNOME Project"
 msgstr "Projekt GNOME"
 
@@ -121,11 +121,11 @@ msgstr "Razpeto okno"
 msgid "Window maximized state"
 msgstr "Razpeto glavno okno"
 
-#: src/photos-application.c:168
+#: src/photos-application.c:167
 msgid "Show the empty state"
 msgstr "Pokaži prazno stanje"
 
-#: src/photos-application.c:169
+#: src/photos-application.c:168
 msgid "Show the application's version"
 msgstr "Pokaži različico programa"
 
@@ -138,16 +138,16 @@ msgstr "Pokaži različico programa"
 #. Translators: this is the name of the default album that will be
 #. * created for imported photos.
 #.
-#: src/photos-application.c:1310 src/photos-export-dialog.c:195
+#: src/photos-application.c:1272 src/photos-export-dialog.c:195
 #: src/photos-import-dialog.c:134
 msgid "%-d %B %Y"
 msgstr "%-d %B %Y"
 
-#: src/photos-base-item.c:1034
+#: src/photos-base-item.c:1032
 msgid "Album"
 msgstr "Album"
 
-#: src/photos-base-item.c:2862
+#: src/photos-base-item.c:2860
 msgid "Screenshots"
 msgstr "Zajete slike"
 
@@ -178,17 +178,21 @@ msgstr "Naprave izrisovalnika DLNA"
 msgid "“%s” edited"
 msgstr "Slika »%s« je spremenjena."
 
+#: src/photos-embed.c:822
+msgid "_Photos"
+msgstr "_Fotografije"
+
 #: src/photos-embed.c:827
 msgid "Collection View"
 msgstr "Pogled zbirke"
 
-#: src/photos-embed.c:830 src/photos-search-type-manager.c:83
-msgid "Albums"
-msgstr "Albumi"
+#: src/photos-embed.c:830
+msgid "_Albums"
+msgstr "_Albumi"
 
-#: src/photos-embed.c:835 src/photos-search-type-manager.c:92
-msgid "Favorites"
-msgstr "Priljubljeno"
+#: src/photos-embed.c:835
+msgid "_Favorites"
+msgstr "_Priljubljeno"
 
 #: src/photos-embed.c:840
 msgid "Import"
@@ -333,7 +337,6 @@ msgstr "Izvozna mapa"
 #. Translators: this is the fallback title in the form
 #. * "Facebook — 2nd January 2013".
 #.
-#: src/photos-facebook-item.c:100 src/photos-flickr-item.c:102
 #: src/photos-google-item.c:98
 #, c-format
 msgid "%s — %s"
@@ -514,7 +517,7 @@ msgstr "Iz podatkov fotografij se pripravlja kazalo"
 msgid "Some photos might not be available during this process"
 msgstr "Nekatere fotografije med opravilom lahko niso na voljo"
 
-#: src/photos-item-manager.c:845
+#: src/photos-item-manager.c:842
 #, c-format
 msgid "Oops! Unable to load “%s”"
 msgstr "Napaka! Ni mogoče naložiti »%s«."
@@ -628,7 +631,7 @@ msgstr "Nastavi kot ozadje"
 msgid "Set as Lock Screen"
 msgstr "Nastavi kot zaslon za zaklep"
 
-#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:883
+#: src/photos-preview-menu.ui:37 src/photos-properties-dialog.c:896
 #: src/photos-selection-toolbar.ui:101
 msgid "Properties"
 msgstr "Lastnosti"
@@ -726,18 +729,18 @@ msgstr "Palci"
 msgid "Preview"
 msgstr "Predogled"
 
-#: src/photos-properties-dialog.c:246
+#: src/photos-properties-dialog.c:259
 msgid "Edited in Photos"
 msgstr "Urejeno z GNOME Photos"
 
-#: src/photos-properties-dialog.c:259
+#: src/photos-properties-dialog.c:272
 msgid "Untouched"
 msgstr "Nespremenjeno"
 
 #. Translators: this is the label next to the photo title in the
 #. * properties dialog
 #.
-#: src/photos-properties-dialog.c:442
+#: src/photos-properties-dialog.c:455
 msgctxt "Document Title"
 msgid "Title"
 msgstr "Naslov"
@@ -745,68 +748,68 @@ msgstr "Naslov"
 #. Translators: this is the label next to the photo author in
 #. * the properties dialog
 #.
-#: src/photos-properties-dialog.c:454
+#: src/photos-properties-dialog.c:467
 msgctxt "Document Author"
 msgid "Author"
 msgstr "Avtor"
 
-#: src/photos-properties-dialog.c:461
+#: src/photos-properties-dialog.c:474
 msgid "Source"
 msgstr "Vir"
 
-#: src/photos-properties-dialog.c:467
+#: src/photos-properties-dialog.c:480
 msgid "Date Modified"
 msgstr "Datum spremembe"
 
-#: src/photos-properties-dialog.c:475
+#: src/photos-properties-dialog.c:488
 msgid "Date Created"
 msgstr "Datum stvaritve"
 
 #. Translators: this is the label next to the photo type in the
 #. * properties dialog
 #.
-#: src/photos-properties-dialog.c:485
+#: src/photos-properties-dialog.c:498
 msgctxt "Document Type"
 msgid "Type"
 msgstr "Vrsta"
 
-#: src/photos-properties-dialog.c:495
+#: src/photos-properties-dialog.c:508
 msgid "Dimensions"
 msgstr "Mere"
 
-#: src/photos-properties-dialog.c:507
+#: src/photos-properties-dialog.c:520
 msgid "Location"
 msgstr "Mesto"
 
-#: src/photos-properties-dialog.c:525
+#: src/photos-properties-dialog.c:538
 msgid "Camera"
 msgstr "Fotoaparat"
 
-#: src/photos-properties-dialog.c:535 src/photos-tool-colors.c:365
+#: src/photos-properties-dialog.c:548 src/photos-tool-colors.c:365
 msgid "Exposure"
 msgstr "Osvetljenost"
 
-#: src/photos-properties-dialog.c:545
+#: src/photos-properties-dialog.c:558
 msgid "Aperture"
 msgstr "Zaslonka"
 
-#: src/photos-properties-dialog.c:555
+#: src/photos-properties-dialog.c:568
 msgid "Focal Length"
 msgstr "Goriščna razdalja"
 
-#: src/photos-properties-dialog.c:565
+#: src/photos-properties-dialog.c:578
 msgid "ISO Speed"
 msgstr "Hitrost ISO"
 
-#: src/photos-properties-dialog.c:575
+#: src/photos-properties-dialog.c:588
 msgid "Flash"
 msgstr "Bliskavica"
 
-#: src/photos-properties-dialog.c:584
+#: src/photos-properties-dialog.c:597
 msgid "Modifications"
 msgstr "Spremembe"
 
-#: src/photos-properties-dialog.c:656
+#: src/photos-properties-dialog.c:669
 #, c-format
 msgid "%ld × %ld pixel"
 msgid_plural "%ld × %ld pixels"
@@ -815,19 +818,19 @@ msgstr[1] "%ld × %ld točka"
 msgstr[2] "%ld × %ld točki"
 msgstr[3] "%ld × %ld točke"
 
-#: src/photos-properties-dialog.c:721
+#: src/photos-properties-dialog.c:734
 msgid "Off, did not fire"
 msgstr "Onemogočeno, bliskavica se ni sprožila"
 
-#: src/photos-properties-dialog.c:723
+#: src/photos-properties-dialog.c:736
 msgid "On, fired"
 msgstr "Omogočeno, bliskavica se je sprožila"
 
-#: src/photos-properties-dialog.c:760
+#: src/photos-properties-dialog.c:773
 msgid "Discard all Edits"
 msgstr "Zavrzi vsa urejanja"
 
-#: src/photos-removable-devices-button.ui:47
+#: src/photos-removable-devices-button.ui:48
 msgid "Devices"
 msgstr "Naprave"
 
@@ -854,6 +857,14 @@ msgstr "Avtor"
 #: src/photos-search-match-manager.c:213
 msgid "Match"
 msgstr "Se sklada"
+
+#: src/photos-search-type-manager.c:83
+msgid "Albums"
+msgstr "Albumi"
+
+#: src/photos-search-type-manager.c:92
+msgid "Favorites"
+msgstr "Priljubljeno"
 
 #. Translators: "Type" refers to a search filter. eg., All, Albums,
 #. * Favorites and Photos.
@@ -925,7 +936,7 @@ msgstr "Poverila %s so potekla!"
 msgid "Settings"
 msgstr "Nastavitve"
 
-#: src/photos-thumbnailer.c:74
+#: src/photos-thumbnailer.c:75
 msgid "D-Bus address to use"
 msgstr "Naslov vodila D-Bus za uporabo"
 
@@ -1055,180 +1066,10 @@ msgstr "Hometown"
 msgid "Filters"
 msgstr "Filtri"
 
-#: src/photos-tracker-controller.c:174
+#: src/photos-tracker-controller.c:168
 msgid "Unable to find Tracker on your operating system"
 msgstr "V sistemu ni mogoče najti programa Tracker"
 
-#: src/photos-tracker-controller.c:176
+#: src/photos-tracker-controller.c:170
 msgid "Unable to fetch the list of photos"
 msgstr "Seznama fotografij ni mogoče pridobiti"
-
-#~ msgid "org.gnome.Photos"
-#~ msgstr "org.gnome.Photos"
-
-#~ msgid "About"
-#~ msgstr "O programu"
-
-#~ msgid "Quit"
-#~ msgstr "Končaj"
-
-#~ msgid "It lets you:"
-#~ msgstr "Omogoča:"
-
-#~ msgid "Send photos to remote DLNA renderers"
-#~ msgstr "Pošlji slike na oddaljene izrisovalnike DLNA"
-
-#~ msgid "Name your first album"
-#~ msgstr "Poimenujte prvi album"
-
-#~ msgid "You can add your online accounts in %s"
-#~ msgstr "Spletne račune je mogoče dodati v meniju %s"
-
-#~ msgid "Untitled Photo"
-#~ msgstr "Neimenovana fotografija"
-
-#~ msgid "Cancel"
-#~ msgstr "Prekliči"
-
-#~ msgid ""
-#~ "Copyright © 2013 Intel Corporation. All rights reserved.\n"
-#~ "Copyright © 2014 – 2015 Pranav Kant\n"
-#~ "Copyright © 2012 – 2017 Red Hat, Inc."
-#~ msgstr ""
-#~ "Avtorske pravice © 2013 Intel Corporation. Vse pravice pridržane.\n"
-#~ "Avtorske pravice © 2014 – 2015 Pranav Kant\n"
-#~ "Avtorske pravice © 2012 – 2017 Red Hat, Inc."
-
-#~ msgid "Brightness"
-#~ msgstr "Svetlost"
-
-#~ msgid "Cannot locate property %s in class %s"
-#~ msgstr "Ni mogoče najti lastnosti %s v razredu %s."
-
-#~ msgid "Failed to find property %s in %s"
-#~ msgstr "Iskanje lastnosti %s v %s je spodletelo."
-
-#~ msgid "Failed to find property %s in %s or parent %s"
-#~ msgstr "Iskanje lastnosti %s v %s oziroma nadrejeni %s je spodletelo."
-
-#~ msgid "Failed to retrieve va_list value: %s"
-#~ msgstr "Pridobivanje vrednosti va_list je spodletelo: %s"
-
-#~ msgid "Width"
-#~ msgstr "Širina"
-
-#~ msgctxt "shortcut window"
-#~ msgid "Preview"
-#~ msgstr "Predogled"
-
-#~ msgid ""
-#~ "Copyright © 2013 Intel Corporation. All rights reserved.\n"
-#~ "Copyright © 2014, 2015 Pranav Kant\n"
-#~ "Copyright © 2012, 2013, 2014, 2015 Red Hat, Inc."
-#~ msgstr ""
-#~ "Avtorske pravice © 2013 Intel Corporation. Vse pravice pridržane.\n"
-#~ "Avtorske pravice © 2014, 2015 Pranav Kant\n"
-#~ "Avtorske pravice © 2012, 2013, 2014, 2015 Red Hat, Inc."
-
-#~ msgid "Original Size"
-#~ msgstr "Izvorna velikost"
-
-#~ msgid "Screen"
-#~ msgstr "Zaslon"
-
-#~ msgid "Square"
-#~ msgstr "Kvadrat"
-
-#~ msgid "A3 (297 × 420 mm)"
-#~ msgstr "A3 (297 × 420 mm)"
-
-#~ msgid "A4 (210 × 297 mm)"
-#~ msgstr "A4 (210 × 297 mm)"
-
-#~ msgid "%a, %d %B %Y  %X"
-#~ msgstr "%a, %d. %B %Y  %X"
-
-#~ msgid "%a, %d %B %Y"
-#~ msgstr "%a, %d. %B %Y"
-
-#~ msgid "%.1f (lens)"
-#~ msgstr "%.1f (leča)"
-
-#~ msgid "%.1f (35mm film)"
-#~ msgstr "%.1f (35mm film)"
-
-#~ msgid "Transformation on unloaded image."
-#~ msgstr "Pretvorba na še ne naloženi sliki."
-
-#~ msgid "Transformation failed."
-#~ msgstr "Pretvorba je spodletela."
-
-#~ msgid "EXIF not supported for this file format."
-#~ msgstr "Zapis EXIF ni podprta oblika zapisa slike."
-
-#~ msgid "Image loading failed."
-#~ msgstr "Nalaganje slike je spodletelo."
-
-#~ msgid "No image loaded."
-#~ msgstr "Ni naložene slike."
-
-#~ msgid "You do not have the permissions necessary to save the file."
-#~ msgstr "Ni ustreznih dovoljenj za shranjevanje datoteke."
-
-#~ msgid "Temporary file creation failed."
-#~ msgstr "Napaka med ustvarjanjem trenutne datoteke."
-
-#~ msgid "At least two file names are equal."
-#~ msgstr "Vsaj dve imeni datotek sta enaki."
-
-#~ msgid "Could not display help for Image Viewer"
-#~ msgstr "Pomoči za pregledovalnik slik ni mogoče prikazati"
-
-#~ msgid " (invalid Unicode)"
-#~ msgstr " (neveljaven Unikod)"
-
-#~ msgid "Recent"
-#~ msgstr "Nedavno"
-
-#~ msgid ""
-#~ "Copyright © 2013 Intel Corporation. All rights reserved.\n"
-#~ "Copyright © 2014, 2015 Pranav Kant\n"
-#~ "Copyright © 2012, 2013, 2014 Red Hat, Inc."
-#~ msgstr ""
-#~ "Avtorske pravice © 2013 Intel Corporation. Vse pravice pridržane.\n"
-#~ "Avtorske pravice © 2014, 2015 Pranav Kant\n"
-#~ "Avtorske pravice © 2012, 2013, 2014 Red Hat, Inc."
-
-#~ msgid "Print"
-#~ msgstr "Natisni"
-
-#~ msgid "No Favorites Found"
-#~ msgstr "Ni najdenih priljubljenih predmetov"
-
-#~ msgid "Load More"
-#~ msgstr "Naloži več"
-
-#~ msgid "Loading…"
-#~ msgstr "Nalaganje ..."
-
-#~ msgid ""
-#~ "<li>View recent local and online photos</li> <li>Access your Flickr "
-#~ "content</li> <li>Send photos to remote DLNA renderers</li> <li>Set as "
-#~ "background</li> <li>Print photos</li> <li>Select favorites</li> <li>Allow "
-#~ "opening full featured editor for more advanced changes</li>"
-#~ msgstr ""
-#~ "<li>pregled nedavnih krajevnih in spletnih fotografij,</li> <li>dostop do "
-#~ "vsebine Flickr,</li> <li>pošiljanje datotek na oddaljene izrisovalnike "
-#~ "DLNA,</li> <li>nastavljanje fotografij kot ozadja namizja,</li> "
-#~ "<li>tiskanje fotografij,</li> <li>izbor priljubljenih in</li> "
-#~ "<li>urejanje fotografij v naprednejših grafičnih urejevalnikih.</li>"
-
-#~ msgid "Facebook"
-#~ msgstr "Facebook"
-
-#~ msgid "Flickr"
-#~ msgstr "Flickr"
-
-#~ msgctxt "Toolbar button tooltip"
-#~ msgid "Organize"
-#~ msgstr "Urejanje fotografij"
